@@ -1,4 +1,4 @@
-﻿TCONST;TITLETYPE;PRIMARYTITLE;STARTYEAR;RUNTIMEMINUTES;GENRES;REGION;IDIOMA;TIPOS;ATRIBUTOS;ISORIGINALTITLE;TOTAL_ACTORES;TOTAL_DIRECTORES;TOTAL_ESCRITORES;TOTAL_OTRAS_CATEGORIAS;PROM_PONDERADO_RATING_ACTORES;PROM_PONDERADO_RATING_DIRECTORES;PROM_PONDERADO_RATING_ESCRITORES;PROM_PONDERADO_RATING_OTRAS_CAT
+TCONST;TITLETYPE;PRIMARYTITLE;STARTYEAR;RUNTIMEMINUTES;GENRES;REGION;IDIOMA;TIPOS;ATRIBUTOS;ISORIGINALTITLE;TOTAL_ACTORES;TOTAL_DIRECTORES;TOTAL_ESCRITORES;TOTAL_OTRAS_CATEGORIAS;PROM_PONDERADO_RATING_ACTORES;PROM_PONDERADO_RATING_DIRECTORES;PROM_PONDERADO_RATING_ESCRITORES;PROM_PONDERADO_RATING_OTRAS_CAT
 tt13452446;movie;Damsel;2023;\N;Action,Adventure,Fantasy;\N;\N;original;\N;1;4;1;1;4;64,1866572;60;57;58,00775194
 tt15829724;movie;The Locksmith;2023;92;Action,Mystery,Thriller;\N;\N;original;\N;1;4;1;5;0;57,11007862;31,5;47,63888889;
 tt19864802;movie;Land of Bad;2023;\N;Action,Thriller;\N;\N;original;\N;1;4;1;1;4;62,3084831;57,75;51,33333333;46,5
@@ -25,6 +25,7 @@ tt24517876;movie;Junior;2023;\N;Action;\N;\N;original;\N;1;2;0;0;2;59,63888889;;
 tt11210390;movie;Asterix & Obelix: The Middle Kingdom;2023;112;Adventure,Comedy,Family;\N;\N;original;\N;1;4;0;4;2;62,74023336;;60,06364003;62,96651786
 tt17634642;movie;Les petites victoires;2023;89;Comedy;\N;\N;original;\N;1;4;1;3;2;59,9522942;59;61,82795031;62,92241379
 tt3195548;movie;Game of Power;2023;\N;Crime,Drama,Mystery;\N;\N;original;\N;1;5;1;0;1;53,90271294;;;52,5
+tt13848506;movie;The Skull;2023;\N;Sci-Fi;\N;\N;original;\N;1;0;1;1;0;;23;67,6;0
 tt5755238;movie;Leo;2023;\N;Animation,Comedy,Family;\N;\N;original;\N;1;6;1;0;0;57,78844641;60,4;;
 tt13021790;movie;A Disturbance in the Force;2023;85;Documentary;\N;\N;original;\N;1;4;1;0;1;62,01492063;57,25;;60,5
 tt11567502;movie;Roswell Delirium;2023;110;Sci-Fi;\N;\N;original;\N;1;2;1;0;2;49,87847222;64,33333333;;64
@@ -55,7 +56,7 @@ tt23474110;movie;Domoy!;2023;80;Drama,Thriller;\N;\N;original;\N;1;4;0;0;2;54,90
 tt13893696;movie;Aladdin: Live from the West End;2023;140;Adventure,Comedy,Drama;\N;\N;original;\N;1;1;2;4;0;80;79,14285714;70,22857143;
 tt10155862;movie;Monster on: The Art of the Craft;2023;\N;Comedy;\N;\N;original;\N;1;3;0;0;0;55,275;;;
 tt21147728;movie;Ko ziv ko mrtav;2023;\N;Action,Comedy;\N;\N;original;\N;1;4;0;1;5;62,69047619;;62,5;59,3
-tt11042786;movie;KarsmÃªnia;2023;\N;Adventure;\N;\N;original;\N;1;2;0;0;1;69,66666667;;;49
+tt11042786;movie;KarsmǦnia;2023;\N;Adventure;\N;\N;original;\N;1;2;0;0;1;69,66666667;;;49
 tt11736638;movie;Four Souls of Coyote;2023;103;Adventure,Animation;\N;\N;original;\N;1;4;1;1;1;70,74404762;60;66,78947368;57
 tt8839576;movie;Bau, Artist at War;2023;\N;Comedy,Drama,Romance;\N;\N;original;\N;1;4;1;0;3;45,375;51,13333333;;59,9
 tt23729790;movie;100 Seasons;2023;104;Drama;\N;\N;original;\N;1;4;1;0;5;47,03125;;;40,68
@@ -67,7 +68,7 @@ tt3287980;movie;Questions;2023;100;Comedy;\N;\N;original;\N;1;4;1;0;3;67,1428571
 tt23874578;movie;Dipawali Ratri;2023;\N;\N;\N;\N;original;\N;1;1;0;0;0;61,37583893;;;
 tt22208468;movie;Kutsal Damacana 4;2023;96;Comedy;\N;\N;original;\N;1;4;1;2;3;37,39607843;28,33333333;42,11764706;25,5
 tt10156158;movie;Vie Feroce;2024;\N;Drama;\N;\N;original;\N;1;0;1;0;0;;53,66666667;;
-tt26453241;movie;Una Historia de Amor FÃºnebre;2023;\N;Comedy;\N;\N;original;\N;1;0;0;0;1;;;;56
+tt26453241;movie;Una Historia de Amor Fǧnebre;2023;\N;Comedy;\N;\N;original;\N;1;0;0;0;1;;;;56
 tt22489892;movie;Death Walks Behind You;2023;80;Horror;\N;\N;original;\N;1;7;1;0;0;48,87068966;;;
 tt9636732;movie;Israelism;2023;84;Documentary;\N;\N;original;\N;1;0;1;0;5;;50;;71,87280702
 tt15386768;movie;Shesh Pata;2023;\N;Drama;\N;\N;original;\N;1;3;1;0;2;65,79659127;62,4;;64,8
@@ -87,7 +88,7 @@ tt21230854;movie;Sonderlage;2023;\N;Drama;\N;\N;original;\N;1;5;1;1;3;45,1428571
 tt26242228;movie;Empire;2023;93;History;\N;\N;original;\N;1;4;1;0;5;26,57142857;60,33333333;;62,67136223
 tt4622576;movie;The Heart of Them;2023;\N;Animation,Drama,Fantasy;\N;\N;original;\N;1;3;0;0;0;50,61111111;;;
 tt25314032;movie;Lyubov Sovetskogo Soyuza;2023;52;Drama,Romance;\N;\N;original;\N;1;3;1;2;3;49,66666667;;64,51111111;60,15182186
-tt15617648;movie;Ãšltimas voluntades;2023;\N;Drama;\N;\N;original;\N;1;5;0;1;1;58,22668546;;43;64
+tt15617648;movie;�?ltimas voluntades;2023;\N;Drama;\N;\N;original;\N;1;5;0;1;1;58,22668546;;43;64
 tt21881982;movie;Campeonex;2023;\N;Comedy;\N;\N;original;\N;1;1;1;2;2;39;65,88888889;61,91666667;64,6
 tt21361444;movie;Avengers: Secret Wars;2026;\N;Action,Adventure,Sci-Fi;\N;\N;original;\N;1;7;0;1;1;64,8499377;;;72,83333333
 tt12391962;movie;Debbie Does Demons;2023;\N;\N;\N;\N;original;\N;1;3;1;0;2;34,86631016;33,70588235;;23,25
@@ -111,7 +112,7 @@ tt14478740;movie;Rhapsody in Justice;2023;114;Comedy,Drama;\N;\N;original;\N;1;3
 tt12916812;movie;Banandansen;2023;92;Comedy;\N;\N;original;\N;1;2;1;0;0;46;60;;
 tt26934777;movie;Always Forgive;2023;52;Documentary;\N;\N;original;\N;1;0;0;0;2;;;;62
 tt20100884;movie;Where the Devil Can't Go, He Sends a Woman 2;2023;122;Comedy,Crime,Drama;\N;\N;original;\N;1;4;1;1;4;55,30525031;42,25;;34,60784314
-tt26600000;movie;Fritz Bauers Erbe - Gerechtigkeit verjÃ¤hrt nicht;2023;98;Documentary;\N;\N;original;\N;1;0;3;0;3;;50,4;;29,4
+tt26600000;movie;Fritz Bauers Erbe - Gerechtigkeit verj��hrt nicht;2023;98;Documentary;\N;\N;original;\N;1;0;3;0;3;;50,4;;29,4
 tt26448953;movie;The Echo;2023;102;Documentary;\N;\N;original;\N;1;4;1;0;5;;69;;72,46899225
 tt23737556;movie;Po shchuchyemu veleniyu;2023;115;Adventure,Fantasy;\N;\N;original;\N;1;5;1;1;3;57,93459119;53,2;38,33333333;61,98262588
 tt26678266;movie;The Dividers;2023;\N;Documentary;\N;\N;original;\N;1;0;0;0;4;;;;58,60606061
@@ -151,10 +152,10 @@ tt26441793;movie;The Shadowless Tower;2023;144;Drama;\N;\N;original;\N;1;4;1;0;5
 tt21482550;movie;Do You Love Me?;2023;90;Drama;\N;\N;original;\N;1;7;1;0;2;16,75;67;;62,375
 tt24079640;movie;Going Varsity in Mariachi;2023;105;Documentary;\N;\N;original;\N;1;0;2;0;7;;54;;49,46428571
 tt26008716;movie;Puli the 19th Century;2023;158;Action,Drama;\N;\N;original;\N;1;6;1;0;2;55,48606196;43,33333333;;54,71885522
-tt20599230;movie;El fantÃ¡stico caso del Golem;2023;\N;Comedy,Sci-Fi;\N;\N;original;\N;1;4;2;0;4;61,9022308;54;;59,59666667
+tt20599230;movie;El fantǭstico caso del Golem;2023;\N;Comedy,Sci-Fi;\N;\N;original;\N;1;4;2;0;4;61,9022308;54;;59,59666667
 tt22046396;movie;Povar iz Neapolya;2023;\N;Comedy,Crime;\N;\N;original;\N;1;2;1;0;0;74,33333333;62;;
 tt16964616;movie;Orchestra Mysuru;2023;174;Drama,Musical;\N;\N;original;\N;1;4;1;1;3;38,93333333;;;67,86666667
-tt26721167;movie;AlagÃºt a fÃ©ny vÃ©gÃ©n;2023;48;Drama;\N;\N;original;\N;1;1;0;0;0;63,5;;;
+tt26721167;movie;Alagǧt a fǸny vǸgǸn;2023;48;Drama;\N;\N;original;\N;1;1;0;0;0;63,5;;;
 tt24218390;movie;Meongmongi;2023;114;Comedy,Drama,Family;\N;\N;original;\N;1;3;1;0;0;63,30952381;70;;
 tt15027278;movie;An Encounter with God;2023;\N;Crime,Drama;\N;\N;original;\N;1;4;1;0;2;59,88970588;37;;
 tt14500666;movie;Free to a Bad Home;2023;80;Horror;\N;\N;original;\N;1;4;2;0;3;21,09090909;;;30,5
@@ -225,7 +226,7 @@ tt26470395;movie;Sur'da Devran;2023;\N;Comedy,Drama;\N;\N;original;\N;1;1;1;1;1;
 tt24082438;movie;20 Days in Mariupol;2023;95;Documentary;\N;\N;original;\N;1;0;1;0;5;;;;34,5
 tt26350965;movie;Viratapura Viraagi;2023;178;Biography;\N;\N;original;\N;1;2;1;0;4;69,35064935;;;
 tt23664788;movie;Mlan Jochna;2023;87;Crime,Drama,Family;\N;\N;original;\N;1;4;4;2;0;42,66666667;;;
-tt15509430;movie;L'arbre de la misÃ©ricorde;2023;77;Drama;\N;\N;original;\N;1;0;1;0;0;;71;;
+tt15509430;movie;L'arbre de la misǸricorde;2023;77;Drama;\N;\N;original;\N;1;0;1;0;0;;71;;
 tt15458072;movie;White Blood;2023;\N;Thriller;\N;\N;original;\N;1;1;0;0;0;66;;;
 tt25393030;movie;Noncompliant 2: The Sheriff;2023;\N;Documentary;\N;\N;original;\N;1;0;1;3;0;;;;
 tt22443920;movie;Stick Up Boy;2023;\N;Drama;\N;\N;original;\N;1;2;1;0;0;41;48;;
@@ -244,7 +245,7 @@ tt19115050;movie;Hero;2023;97;Drama;\N;\N;original;\N;1;1;0;0;0;56,2;;;
 tt11078340;movie;Slasher House 3;2023;\N;Action,Horror,Sci-Fi;\N;\N;original;\N;1;2;1;0;2;52,2;41,7;;36,85714286
 tt10579986;movie;Mom's Coming;2023;\N;Horror,Musical,Thriller;\N;\N;original;\N;1;1;0;0;0;33,5;;;
 tt26349734;movie;Trieste Shines at Night;2023;75;Documentary;\N;\N;original;\N;1;0;3;0;2;;63,90270936;;56,66666667
-tt26543725;movie;YÃ´kai no mago;2023;\N;Documentary;\N;\N;original;\N;1;0;0;0;1;;;;40
+tt26543725;movie;Y��kai no mago;2023;\N;Documentary;\N;\N;original;\N;1;0;0;0;1;;;;40
 tt10965102;movie;Mujeres Silenciosas;2023;\N;Drama;\N;\N;original;\N;1;0;1;0;0;;75;;
 tt15127804;movie;Maggie;2023;61;Drama,Romance;\N;\N;original;\N;1;1;0;0;0;19;;;
 tt26731970;movie;Yoake no subete;2024;\N;Drama;\N;\N;original;\N;1;2;1;2;0;65,23333333;43;64,27777778;
@@ -260,7 +261,7 @@ tt22497824;movie;The Matchmaker;2023;\N;Drama,Mystery,Thriller;\N;\N;original;\N
 tt23038744;movie;The Secret Dimension;2023;\N;Musical;\N;\N;original;\N;1;1;0;0;0;57,75;;;
 tt5187522;movie;Inhuman;2023;\N;Horror,Thriller;\N;\N;original;\N;1;0;0;0;2;;;;34,91666667
 tt16793230;movie;Mercy & Compassion;2023;\N;Action,Drama,War;\N;\N;original;\N;1;0;1;0;0;;;;
-tt23321858;movie;GekijÃ´ban Senkyonandesu;2023;109;Documentary;\N;\N;original;\N;1;0;0;0;2;;;;73,33333333
+tt23321858;movie;Gekij��ban Senkyonandesu;2023;109;Documentary;\N;\N;original;\N;1;0;0;0;2;;;;73,33333333
 tt14960250;movie;The Soundguy;2023;\N;Comedy,Drama;\N;\N;original;\N;1;3;0;0;0;48,22222222;;;
 tt15352698;movie;Love & Drugs 3: The Ultimate Sacrifice;2023;\N;Drama;\N;\N;original;\N;1;4;1;0;0;61,25;72;;
 tt15180622;movie;Eden II;2023;\N;Sci-Fi;\N;\N;original;\N;1;0;0;0;1;;;;51
@@ -298,7 +299,7 @@ tt15654328;movie;Leo;2023;\N;Action,Crime,Thriller;\N;\N;original;\N;1;4;1;2;3;5
 tt14849194;movie;The Holdovers;2023;\N;Comedy,Drama;\N;\N;original;\N;1;4;1;0;4;60,65563725;65,1;;64,92190779
 tt15699652;movie;Athena Saves Christmas;2023;101;Adventure,Family;\N;\N;original;\N;1;4;1;1;2;52,96124031;54,75;50;58,22083333
 tt15288702;movie;American/Indian;2023;\N;Drama;\N;\N;original;\N;1;4;1;0;5;60,06241135;77,33333333;;68
-tt21352380;movie;Une annÃ©e difficile;2023;\N;Comedy;\N;\N;original;\N;1;4;2;0;0;61,77148401;69,625;;
+tt21352380;movie;Une annǸe difficile;2023;\N;Comedy;\N;\N;original;\N;1;4;2;0;0;61,77148401;69,625;;
 tt9407558;movie;Betrayal;2023;120;War;\N;\N;original;\N;1;1;1;0;0;73,5;60,28571429;;
 tt15302222;movie;Bholaa;2023;135;Action,Adventure,Crime;\N;\N;original;\N;1;4;0;5;0;57,49859826;;55,36363636;
 tt22496962;movie;Something's Brewing;2023;\N;Romance;\N;\N;original;\N;1;3;1;1;3;47,375;48,85714286;52,75;49,99047619
@@ -321,7 +322,7 @@ tt17676734;movie;Americana;2023;110;Action,Crime,Drama;\N;\N;original;\N;1;4;0;0
 tt14966898;movie;Late Night with the Devil;2023;86;Horror;\N;\N;original;\N;1;4;2;0;3;58,10784314;60;;52,24489796
 tt0451272;movie;Nefarious;2023;85;Crime,Thriller;\N;\N;original;\N;1;4;1;0;1;59,11698718;68;;48
 tt15548354;movie;Pakalum Paathiravum;2023;\N;Action,Family,Thriller;\N;\N;original;\N;1;4;1;2;2;57,30776954;53;63,325;10
-tt26605836;movie;Le NamÃ©ssime;2023;68;Comedy;\N;\N;original;\N;1;1;0;0;0;56;;;
+tt26605836;movie;Le NamǸssime;2023;68;Comedy;\N;\N;original;\N;1;1;0;0;0;56;;;
 tt14960290;movie;Ivy;2023;\N;Thriller;\N;\N;original;\N;1;4;1;1;3;57,83972125;;58;58,97159091
 tt20865278;movie;Tramite amicizia;2023;90;Comedy;\N;\N;original;\N;1;4;0;1;5;54,22102273;;53,6;56,82547457
 tt26472364;movie;Otrazheniye tmy;2023;\N;Horror,Thriller;\N;\N;original;\N;1;4;1;1;1;52,3125;;48;42
@@ -329,7 +330,7 @@ tt8971258;movie;Bad Vacancy - All pathways lead to Dubrovnik;2023;\N;Crime;\N;\N
 tt15408248;movie;The Caller Returns;2023;\N;Thriller;\N;\N;original;\N;1;1;0;2;2;49;;35;58,54166667
 tt26634746;movie;Inga skuggor kvar;2023;76;Drama;\N;\N;original;\N;1;5;0;0;0;55,42857143;;;
 tt26493446;movie;Over My Dead Body;2023;119;Comedy;\N;\N;original;\N;1;7;0;1;0;52,34455196;;55;
-tt19815386;movie;Ã€ la belle Ã©toile;2023;110;Drama;\N;\N;original;\N;1;4;1;2;3;52,66666667;;45;49,5
+tt19815386;movie;�? la belle Ǹtoile;2023;110;Drama;\N;\N;original;\N;1;4;1;2;3;52,66666667;;45;49,5
 tt14993352;movie;Consecration;2023;91;Horror,Thriller;\N;\N;original;\N;1;4;1;1;4;60,46591814;63;53,5;65,6264245
 tt15202384;movie;Tre di troppo;2023;90;Comedy,Romance;\N;\N;original;\N;1;4;0;2;4;57,98666667;;33;55,14916719
 tt25502628;movie;Five Hundred Miles;2023;110;Comedy,Fantasy;\N;\N;original;\N;1;8;1;0;1;58,00420513;63;;62
@@ -393,7 +394,7 @@ tt22180518;movie;Disco Boy;2023;92;Drama;\N;\N;original;\N;1;4;1;0;5;53,25490196
 tt26448984;movie;Eastern Front;2023;98;Documentary;\N;\N;original;\N;1;0;2;0;4;;71,83888889;;51,33333333
 tt15299406;movie;Hadik;2023;\N;Action,Adventure,Biography;\N;\N;original;\N;1;3;0;1;3;56,52579365;;62;57,96296296
 tt12498996;movie;The House That Zombies Built;2023;\N;Comedy,Horror,Mystery;\N;\N;original;\N;1;4;1;0;1;50,60245902;59;;53,25
-tt19047064;movie;Rakudai Majo: FÃ»ka to Yami no Majo;2023;\N;Adventure,Animation,Comedy;\N;\N;original;\N;1;5;1;1;0;68,39166667;62,5;49;
+tt19047064;movie;Rakudai Majo: Fǯka to Yami no Majo;2023;\N;Adventure,Animation,Comedy;\N;\N;original;\N;1;5;1;1;0;68,39166667;62,5;49;
 tt10299834;movie;Path to Midnight;2024;\N;Crime,Thriller;\N;\N;original;\N;1;2;0;0;1;48,6875;;;65
 tt22179416;movie;Broken Girls Police;2023;\N;Fantasy,Sci-Fi;\N;\N;original;\N;1;2;1;0;1;64,16666667;68,25;;67,5
 tt16916320;movie;The Siege;2023;\N;Action;\N;\N;original;\N;1;4;1;0;2;51,5;36,75;;53,62285714
@@ -404,7 +405,7 @@ tt25384820;movie;The Evil of Dracula;2023;78;Horror;\N;\N;original;\N;1;3;0;0;0;
 tt15683734;movie;It Lives Inside;2023;99;Drama,Horror,Thriller;\N;\N;original;\N;1;3;0;0;4;61,96236559;;;49,71428571
 tt26656122;movie;God Bless You;2023;78;Drama;\N;\N;original;\N;1;4;0;0;0;56,78306878;;;
 tt20601934;movie;Three;2023;97;Drama;\N;\N;original;\N;1;2;1;0;5;56,66666667;62;;45,28
-tt15069232;movie;Corpos InvisÃ­veis;2023;\N;Documentary;\N;\N;original;\N;1;1;0;0;0;62;;;
+tt15069232;movie;Corpos Invis��veis;2023;\N;Documentary;\N;\N;original;\N;1;1;0;0;0;62;;;
 tt10229260;movie;Tales from Las Cruces;2023;120;Action,Horror,Thriller;\N;\N;original;\N;1;1;0;0;0;49,33333333;;;
 tt5821450;movie;Hump;2024;\N;Adventure,Animation,Comedy;\N;\N;original;\N;1;3;2;1;1;63,25;60,61111111;62;54
 tt14030078;movie;Selfie 2020;2025;\N;Documentary;\N;\N;original;\N;1;0;1;0;1;;82;;55
@@ -417,7 +418,7 @@ tt22778220;movie;Viareggio1969;2023;\N;Crime;\N;\N;original;\N;1;0;0;0;4;;;;57,9
 tt9843100;movie;Son of the Dawn;2023;\N;Horror;\N;\N;original;\N;1;0;1;0;3;;51;;53,625
 tt14082186;movie;Ghost Town;2023;\N;Thriller,Western;\N;\N;original;\N;1;4;0;0;3;47,11666667;;;44,7952381
 tt13650540;movie;If You Were the Last;2023;89;Romance,Sci-Fi;\N;\N;original;\N;1;4;0;0;3;60,5;;;63,5
-tt18350778;movie;MellÃ©kszereplÃ¶k;2023;120;Drama;\N;\N;original;\N;1;2;1;1;0;60,7;68;66;
+tt18350778;movie;MellǸkszerepl��k;2023;120;Drama;\N;\N;original;\N;1;2;1;1;0;60,7;68;66;
 tt22648994;movie;Nanoni, Chigirakun Ga Amasugiru;2023;\N;Romance;\N;\N;original;\N;1;3;1;0;0;38,1;65,71428571;;
 tt15341416;movie;Scarborn;2023;\N;Drama,History;\N;\N;original;\N;1;4;1;0;4;63,28252924;60;;63,86483516
 tt14682882;movie;La sirvienta;2023;\N;Biography;\N;\N;original;\N;1;5;1;0;1;55,63829787;48,2;;52,75
@@ -489,7 +490,7 @@ tt26316431;movie;The Problem of the Hero;2023;\N;Drama;\N;\N;original;\N;1;0;0;0
 tt13103026;movie;Ghost Hunters;2023;\N;Horror;\N;\N;original;\N;1;0;1;0;1;;73;;73
 tt19394856;movie;PA39: The Halloween Broadcast;2023;72;Horror,Reality-TV,Talk-Show;\N;\N;original;\N;1;8;1;0;1;49,1922381;32,5;;62,42763158
 tt9848544;movie;Solid Venom;2024;\N;Fantasy,Horror;\N;\N;original;\N;1;3;0;1;0;47,25;;;
-tt15214204;movie;Guerra, Alfonso. El hombre detrÃ¡s del polÃ­tico;2023;154;Documentary;\N;\N;original;\N;1;1;0;0;1;74,66666667;;;51
+tt15214204;movie;Guerra, Alfonso. El hombre detrǭs del pol��tico;2023;154;Documentary;\N;\N;original;\N;1;1;0;0;1;74,66666667;;;51
 tt26924812;movie;Avaton;2023;60;Documentary;\N;\N;original;\N;1;0;1;0;0;;62;;
 tt26340918;movie;When You Look Beneath the Skin;2023;93;Drama;\N;\N;original;\N;1;1;1;0;0;65,5;72;;
 tt26687422;movie;2023 Oscar Nominated Short Films: Live Action;2023;110;Drama;\N;\N;original;\N;1;0;0;0;3;;;;72,62019231
@@ -563,7 +564,7 @@ tt1609497;movie;Quasi;2023;\N;Comedy,Drama;\N;\N;original;\N;1;4;0;3;3;56,772222
 tt9115376;movie;Out of Time;2023;\N;Sci-Fi;\N;\N;original;\N;1;0;1;0;0;;46,66666667;;
 tt5293310;movie;Someone Dies Tonight;2023;\N;Thriller;\N;\N;original;\N;1;4;1;2;1;53,19047619;69;58,4;
 tt11362206;movie;Plaguepits: The Torture Dead;2023;90;Horror;\N;\N;original;\N;1;2;0;0;1;47,63636364;;;46,88461538
-tt21854424;movie;FamÃ­lia;2023;121;Drama;\N;\N;original;\N;1;4;1;1;4;64,42914945;66,0952381;62,16666667;63,01737968
+tt21854424;movie;Fam��lia;2023;121;Drama;\N;\N;original;\N;1;4;1;1;4;64,42914945;66,0952381;62,16666667;63,01737968
 tt14555712;movie;Profeti;2023;\N;Drama;\N;\N;original;\N;1;4;1;1;4;53,87179487;63,75;65,44444444;63,00873735
 tt21970082;movie;Screenplay;2023;118;Action,Crime,Thriller;\N;\N;original;\N;1;6;0;0;0;61,16381367;;;
 tt21764952;movie;Cenazemize Hos Geldiniz;2023;110;Comedy;\N;\N;original;\N;1;3;0;1;3;43,60606061;;51;57,22222222
@@ -596,7 +597,7 @@ tt6340890;movie;The London Cinephile;2023;90;Documentary;\N;\N;original;\N;1;0;0
 tt23252748;movie;My Valentine Crush;2023;84;Romance;\N;\N;original;\N;1;4;1;1;4;53,78947368;65;;51,72916667
 tt11304740;movie;Wish;2023;\N;Adventure,Animation,Comedy;\N;\N;original;\N;1;2;1;1;1;66,65;63,5;65,25;74
 tt14252678;movie;Crypt of Evil;2023;\N;Horror;\N;\N;original;\N;1;4;1;0;0;48,79032258;;;
-tt13720942;movie;Osario Norte, los Ãºltimos dÃ­as de San ValentÃ­n;2023;\N;Documentary;\N;\N;original;\N;1;1;1;0;2;64,625;71;;19,5
+tt13720942;movie;Osario Norte, los ǧltimos d��as de San Valent��n;2023;\N;Documentary;\N;\N;original;\N;1;1;1;0;2;64,625;71;;19,5
 tt26599543;movie;Bear Man;2023;\N;Action,Comedy;\N;\N;original;\N;1;8;0;0;0;61,45238095;;;
 tt4372572;movie;Midnight Massacre;2023;\N;Action,Sci-Fi;\N;\N;original;\N;1;4;1;0;2;51,8;49;;37
 tt24078380;movie;The Disappearance of Shere Hite;2023;116;Documentary;\N;\N;original;\N;1;1;1;0;8;60,42857143;79;;63,9546748
@@ -611,8 +612,8 @@ tt15509266;movie;Spy;2023;122;Action,Thriller;\N;\N;original;\N;1;4;1;1;3;59,648
 tt14873756;movie;Key to Love;2023;\N;Drama;\N;\N;original;\N;1;2;1;0;2;46,53333333;70;;50,59090909
 tt26743210;movie;How to Train Your Dragon;2025;\N;Adventure;\N;\N;original;\N;1;0;1;0;2;;77,5;;60,46022727
 tt26351421;movie;The Mountain;2023;92;Documentary;\N;\N;original;\N;1;1;1;1;5;66,55555556;74,33333333;68,125;66,50961538
-tt18556486;movie;Les gardiennes de la planÃ¨te;2023;82;Documentary;\N;\N;original;\N;1;1;1;0;2;60,38461538;67;;56,21428571
-tt25505060;movie;Leon - KÃ¤mpf um deine Liebe;2023;89;Drama,Romance;\N;\N;original;\N;1;5;1;1;3;33,875;52;;
+tt18556486;movie;Les gardiennes de la plan��te;2023;82;Documentary;\N;\N;original;\N;1;1;1;0;2;60,38461538;67;;56,21428571
+tt25505060;movie;Leon - K��mpf um deine Liebe;2023;89;Drama,Romance;\N;\N;original;\N;1;5;1;1;3;33,875;52;;
 tt20424172;movie;Alibi.com 2;2023;88;Comedy;\N;\N;original;\N;1;4;0;2;4;59,3578869;;60,37878788;55,1053701
 tt6562232;movie;Circle Line;2023;80;Action,Horror;\N;\N;original;\N;1;4;1;3;2;56,06060606;;26;51
 tt14441306;movie;Bodyguard Story;2023;\N;Action;\N;\N;original;\N;1;0;1;0;1;;55,77777778;;60,4
@@ -632,7 +633,7 @@ tt21846774;movie;Slub doskonaly;2023;\N;Comedy,Romance;\N;\N;original;\N;1;4;1;5
 tt16353452;movie;Remember Us;2023;\N;Crime,Drama;\N;\N;original;\N;1;1;0;0;0;54,81818182;;;
 tt25994796;movie;Detective Conan: Episode of Ai Haibara ~ Black Iron Mystery Train;2023;90;Action,Animation,Crime;\N;\N;original;\N;1;3;0;0;0;67,42408163;;;
 tt11237950;movie;The Accompanist Awakening;2023;\N;Drama,Romance;\N;\N;original;\N;1;1;0;0;4;54;;;56
-tt23035496;movie;A Alegria Ã© a Prova dos Nove;2023;\N;\N;\N;\N;original;\N;1;3;0;0;4;66,59642857;;;63,55
+tt23035496;movie;A Alegria Ǹ a Prova dos Nove;2023;\N;\N;\N;\N;original;\N;1;3;0;0;4;66,59642857;;;63,55
 tt22003668;movie;Great Canadian;2023;90;Comedy,Drama;\N;\N;original;\N;1;3;0;0;1;56,8;;;57
 tt24076346;movie;Switch;2023;113;Comedy,Drama,Fantasy;\N;\N;original;\N;1;8;1;0;0;54,38085938;;;
 tt24973372;movie;Fa cai lian meng;2023;106;Comedy,Crime;\N;\N;original;\N;1;4;1;1;3;54,97009967;;63,75;48,44444444
@@ -756,7 +757,7 @@ tt18279642;movie;Dharmantaran;2023;\N;Drama;\N;\N;original;\N;1;1;0;0;0;57;;;
 tt18550220;movie;Junkyard Dog;2023;93;Comedy,Drama;\N;\N;original;\N;1;3;0;1;2;59,38947368;;58,5;54,16666667
 tt5553244;movie;Then There Was You;2023;84;Comedy,Drama,Music;\N;\N;original;\N;1;4;1;1;4;;;;19
 tt15003962;movie;Fog;2023;\N;Drama;\N;\N;original;\N;1;2;1;0;1;32,66666667;72;;50,5
-tt15600616;movie;BaslangiÃ§: Ye'cÃ¼c Me'cÃ¼c;2023;\N;Horror;\N;\N;original;\N;1;0;2;0;2;;31,54761905;;38,925
+tt15600616;movie;Baslangi��: Ye'cǬc Me'cǬc;2023;\N;Horror;\N;\N;original;\N;1;0;2;0;2;;31,54761905;;38,925
 tt25964490;movie;Miami's Richmond Heights;2023;\N;Documentary;\N;\N;original;\N;1;0;0;0;1;;;;62
 tt18828658;movie;The Black Quarry;2023;\N;Horror;\N;\N;original;\N;1;1;0;0;0;40,66666667;;;
 tt7584540;movie;The Format;2023;\N;Comedy,Horror;\N;\N;original;\N;1;3;0;0;4;33,4;;;46,9
@@ -771,7 +772,7 @@ tt26348412;movie;Other Girls;2023;80;Comedy,Drama;\N;\N;original;\N;1;1;0;0;2;57
 tt14183380;movie;Vaathil;2023;\N;Drama;\N;\N;original;\N;1;3;0;0;3;61,61060606;;;58,94814815
 tt24454164;movie;It's Lonely at the Top;2023;\N;Drama;\N;\N;original;\N;1;1;1;0;0;74;38;;
 tt26224220;movie;A Very Long Gif;2023;75;\N;\N;\N;original;\N;1;0;1;0;0;;57;;
-tt26731096;movie;Hay una puerta ahÃ­;2023;\N;Documentary;\N;\N;original;\N;1;0;0;0;1;;;;79,25
+tt26731096;movie;Hay una puerta ah��;2023;\N;Documentary;\N;\N;original;\N;1;0;0;0;1;;;;79,25
 tt15768402;movie;Panchayiti;2023;\N;Drama;\N;\N;original;\N;1;2;0;0;0;74,55555556;;;
 tt14947834;movie;Attack of the Flies;2023;\N;Thriller;\N;\N;original;\N;1;1;0;0;0;78;;;
 tt26430199;movie;Ivan Semyonov: Bolshoy pokhod;2023;\N;Comedy;\N;\N;original;\N;1;0;1;0;0;;49;;
@@ -850,7 +851,7 @@ tt14729020;movie;Double Blind;2023;90;Horror,Thriller;\N;\N;original;\N;1;3;0;0;
 tt26238962;movie;Death Letter Blues;2023;80;Crime,Mystery,Sci-Fi;\N;\N;original;\N;1;2;1;0;2;56,75;53;;44,5
 tt12781876;movie;Mass State Lottery;2023;\N;Comedy,Crime,Horror;\N;\N;original;\N;1;2;0;0;0;43,75;;;
 tt14812496;movie;The Challenge;2023;\N;Drama;\N;\N;original;\N;1;4;1;2;2;59,75775177;62,875;61,85714286;42,66666667
-tt15097144;movie;Mon chat et moi, la grande aventure de RroÃ»;2023;\N;Drama,Family;\N;\N;original;\N;1;1;1;1;3;62,5;68;58,75;69,98717949
+tt15097144;movie;Mon chat et moi, la grande aventure de Rroǯ;2023;\N;Drama,Family;\N;\N;original;\N;1;1;1;1;3;62,5;68;58,75;69,98717949
 tt14538396;movie;Master of Dreams;2023;293;Adventure,Drama,Mystery;\N;\N;original;\N;1;4;0;0;4;55,22359285;;;29,2
 tt26720919;movie;Bidean jarraituz;2023;89;Documentary;\N;\N;original;\N;1;0;0;0;4;;;;64,525
 tt10651230;movie;The Peasants;2023;\N;Animation,Drama;\N;\N;original;\N;1;4;2;1;1;55,36231884;62,5;67;78
@@ -866,12 +867,12 @@ tt15547924;movie;Music;2023;108;Drama;\N;\N;original;\N;1;4;1;0;3;59,1637931;64,
 tt21303732;movie;One Summer;2023;\N;Drama;\N;\N;original;\N;1;4;0;0;0;44,33333333;;;
 tt13130024;movie;Simulant;2023;\N;Sci-Fi,Thriller;\N;\N;original;\N;1;4;1;0;4;56,21497585;47,66666667;;48,12280702
 tt13176330;movie;Hitpig;2023;86;Action,Adventure,Animation;\N;\N;original;\N;1;4;1;3;1;59,27317291;50;39,6;
-tt19860732;movie;NiÃ±a;2023;\N;Drama;\N;\N;original;\N;1;3;0;0;0;57,18181818;;;
+tt19860732;movie;Ni��a;2023;\N;Drama;\N;\N;original;\N;1;3;0;0;0;57,18181818;;;
 tt11488028;movie;The 3rd Guest;2023;87;Thriller;\N;\N;original;\N;1;4;1;0;5;36;;;14,25
 tt15163948;movie;Naan Kadavul Illai;2023;\N;Drama;\N;\N;original;\N;1;6;1;0;0;58,70396743;58;;
 tt13273800;movie;Sun and Concrete;2023;119;Adventure,Crime,Drama;\N;\N;original;\N;1;4;1;1;4;35;63,6;;62,67619048
 tt9049058;movie;The Chapel;2023;96;Drama,Thriller;\N;\N;original;\N;1;4;1;0;5;58,43599258;60,1;;60,2974359
-tt24417030;movie;FrontiÃ¨res;2023;95;Drama;\N;\N;original;\N;1;4;1;0;4;61,51339869;64;;66,98378825
+tt24417030;movie;Fronti��res;2023;95;Drama;\N;\N;original;\N;1;4;1;0;4;61,51339869;64;;66,98378825
 tt26731262;movie;Spray;2023;112;Action,Thriller;\N;\N;original;\N;1;3;1;0;0;47,59;60,18181818;;
 tt5583976;movie;Phone Book;2023;\N;Comedy;\N;\N;original;\N;1;6;1;0;1;54,08;53,5;;89
 tt19395772;movie;Jaunt;2023;\N;Adventure,Drama,Romance;\N;\N;original;\N;1;0;0;0;3;;;;12,8
@@ -896,7 +897,7 @@ tt20258156;movie;Solitary;2023;95;Action,Comedy;\N;\N;original;\N;1;4;1;1;4;52,3
 tt15470654;movie;Stronghold;2023;\N;Thriller;\N;\N;original;\N;1;3;1;0;1;47,18181818;52;;76
 tt1167480;movie;Flanimals;2024;\N;Adventure,Animation,Comedy;\N;\N;original;\N;1;0;0;2;1;;;67,23232323;60,14285714
 tt15175546;movie;Gods Are Watching;2023;\N;Drama,Fantasy;\N;\N;original;\N;1;3;0;0;1;60,20256917;;;63,66666667
-tt18315204;movie;FenÃ³menas;2023;\N;\N;\N;\N;original;\N;1;2;1;2;3;56,32142857;60,75;57,26;63,79166667
+tt18315204;movie;Fen��menas;2023;\N;\N;\N;\N;original;\N;1;2;1;2;3;56,32142857;60,75;57,26;63,79166667
 tt24056364;movie;The Mad Writer;2023;69;Documentary;\N;\N;original;\N;1;0;1;0;6;;65,5;;50,71428571
 tt21609938;movie;Dear Vaappi;2023;138;Drama,Romance;\N;\N;original;\N;1;4;1;1;3;55,77952822;;;55,76
 tt15548424;movie;Helvellyn Edge;2023;124;Fantasy;\N;\N;original;\N;1;2;0;0;4;54,25;;;67,10095238
@@ -1017,7 +1018,7 @@ tt24069962;movie;Koty Ermitazha;2023;70;Animation,Comedy;\N;\N;original;\N;1;0;1
 tt24082488;movie;The Eternal Memory;2023;85;Documentary;\N;\N;original;\N;1;0;1;0;3;;74,5;;58,02345679
 tt13285868;movie;Two Heads;2023;98;Thriller;\N;\N;original;\N;1;1;1;0;0;32;33;;
 tt16757670;movie;Hide & Seek;2023;\N;Romance;\N;\N;original;\N;1;0;0;0;1;;;;64,92857143
-tt21345388;movie;Murat GÃ¶gebakan - Kalbim Yarali;2023;\N;Biography;\N;\N;original;\N;1;5;0;0;2;51;;;44,5
+tt21345388;movie;Murat G��gebakan - Kalbim Yarali;2023;\N;Biography;\N;\N;original;\N;1;5;0;0;2;51;;;44,5
 tt20158996;movie;Cuarencena;2023;\N;Comedy;\N;\N;original;\N;1;4;1;0;4;62,69814241;72;;63,65606061
 tt12087678;movie;Karanliktaki Kadin;2023;\N;Drama,Horror,Mystery;\N;\N;original;\N;1;1;0;0;0;68,33333333;;;
 tt16891968;movie;The Duke of Marylebone;2023;100;Comedy;\N;\N;original;\N;1;1;0;0;0;80;;;
@@ -1044,7 +1045,7 @@ tt14960442;movie;A Small Town Christmas;2023;\N;Drama;\N;\N;original;\N;1;1;0;0;
 tt6072150;movie;Combativo;2023;90;Action,Adventure;\N;\N;original;\N;1;0;0;0;1;;;;85
 tt20518508;movie;Broken;2023;80;Drama;\N;\N;original;\N;1;1;1;0;0;46;60;;
 tt24056974;movie;Searching for Rodakis;2023;56;Documentary;\N;\N;original;\N;1;0;0;0;1;;;;68
-tt18077484;movie;Los NÃ¡poles;2023;120;Comedy;\N;\N;original;\N;1;1;0;0;2;68;;;76
+tt18077484;movie;Los Nǭpoles;2023;120;Comedy;\N;\N;original;\N;1;1;0;0;2;68;;;76
 tt8134336;movie;A Night Without Tears;2023;\N;Mystery;\N;\N;original;\N;1;0;1;0;0;;71;;
 tt6060274;movie;Gone with the Dead;2023;96;Action,Horror;\N;\N;original;\N;1;2;1;2;0;51,15384615;;50,03571429;
 tt26691912;movie;The First Hour;2023;63;Documentary;\N;\N;original;\N;1;0;1;0;1;;53;;25
@@ -1121,7 +1122,7 @@ tt15211018;movie;Hela bilden;2023;120;Comedy,Drama,Sci-Fi;\N;\N;original;\N;1;5;
 tt21380552;movie;Hung Up on a Dream;2023;116;Documentary;\N;\N;original;\N;1;0;1;0;3;;52;;61,57142857
 tt13058466;movie;Wings;2023;\N;Thriller;\N;\N;original;\N;1;5;1;0;1;66,5;;;
 tt24799686;movie;Wahou!;2023;\N;Comedy;\N;\N;original;\N;1;5;0;0;1;60,29139138;;;63,14545455
-tt25674230;movie;La voz arcana del corazÃ³n;2023;65;Documentary;\N;\N;original;\N;1;1;0;0;0;57,5;;;
+tt25674230;movie;La voz arcana del coraz��n;2023;65;Documentary;\N;\N;original;\N;1;1;0;0;0;57,5;;;
 tt25675602;movie;Droit dans les yeux;2023;76;Documentary;\N;\N;original;\N;1;0;0;0;2;;;;72,25
 tt19246300;movie;El Gran Bingo;2023;\N;Comedy,Drama;\N;\N;original;\N;1;4;0;0;2;43,6;;;55,14285714
 tt15293102;movie;ReBroken;2023;\N;Drama,Thriller;\N;\N;original;\N;1;4;1;0;1;50,20239938;;;
@@ -1153,7 +1154,7 @@ tt18298524;movie;Les complices;2023;\N;Comedy;\N;\N;original;\N;1;3;1;0;4;59,824
 tt14866430;movie;Disconnected;2023;\N;Comedy,Drama,Romance;\N;\N;original;\N;1;3;1;3;0;54,84782609;54,25;49,28571429;
 tt26426514;movie;Hello, Universe;2023;120;Drama;\N;\N;original;\N;1;4;1;0;3;65,78896104;64,1;;61,54511113
 tt2478478;movie;Dreams of Darkness;2023;81;Horror,Thriller;\N;\N;original;\N;1;4;1;0;4;50,92;;;
-tt15057424;movie;PrÃ¡nÃ­ k narozeninÃ¡m;2023;93;Comedy;\N;\N;original;\N;1;7;1;1;1;56,01987847;46;58,25;59
+tt15057424;movie;Prǭn�� k narozeninǭm;2023;93;Comedy;\N;\N;original;\N;1;7;1;1;1;56,01987847;46;58,25;59
 tt24178392;movie;Yura dvornik;2023;\N;Comedy,Drama;\N;\N;original;\N;1;5;1;0;1;54,10275159;;;
 tt26520932;movie;Wild Life;2023;93;Documentary;\N;\N;original;\N;1;0;1;0;7;;74;;71,82017544
 tt26626374;movie;Ekstrasens;2023;92;Horror,Sci-Fi,Thriller;\N;\N;original;\N;1;4;1;2;2;53,6;46;50,66666667;44,83333333
@@ -1210,7 +1211,7 @@ tt15717192;movie;Ghar Banduk Biryani;2023;\N;\N;\N;\N;original;\N;1;4;1;0;2;58,8
 tt26753003;movie;Trap;2024;\N;Thriller;\N;\N;original;\N;1;0;1;0;0;;59,27272727;;
 tt4764464;movie;Realm of Darkness;2023;100;Horror;\N;\N;original;\N;1;3;0;0;1;50,14285714;;;82
 tt9348460;movie;Uomini e altri inconvenienti;2023;\N;Comedy;\N;\N;original;\N;1;4;1;0;4;60,41176471;51,77777778;;49,83333333
-tt26683317;movie;Il Teorema Della FelicitÃ ;2023;\N;Family;\N;\N;original;\N;1;2;0;0;1;46,66666667;;;55
+tt26683317;movie;Il Teorema Della Felicit��;2023;\N;Family;\N;\N;original;\N;1;2;0;0;1;46,66666667;;;55
 tt26459329;movie;Siglo ng Kalinga;2023;120;Drama;\N;\N;original;\N;1;2;1;1;4;67;71,66666667;79,5;66,0952381
 tt12427158;movie;A Thousand and One;2023;117;Crime,Drama;\N;\N;original;\N;1;4;1;0;5;20;;;61,59111111
 tt26456876;movie;The siren;2023;100;Animation,Drama,War;\N;\N;original;\N;1;0;1;1;3;;60,5;61,6;61,96111111
@@ -1282,7 +1283,7 @@ tt11720440;movie;Carry on Jatta 3;2023;\N;Comedy;\N;\N;original;\N;1;4;2;3;1;61,
 tt13123106;movie;Driftwood;2023;\N;Mystery,Romance,Sci-Fi;\N;\N;original;\N;1;2;1;0;1;53,5;50,33333333;;19
 tt26520259;movie;Invisible Hacker;2023;150;Action,Sci-Fi;\N;\N;original;\N;1;2;0;1;1;;;;
 tt26256598;movie;Forms of Forgetting;2023;70;Drama;\N;\N;original;\N;1;2;1;0;0;;55;;
-tt26657791;movie;Ã’sÃ²rÃ²ngÃ ;2023;\N;Fantasy;\N;\N;original;\N;1;4;0;0;1;57,44444444;;;71
+tt26657791;movie;�?s��r��ng��;2023;\N;Fantasy;\N;\N;original;\N;1;4;0;0;1;57,44444444;;;71
 tt25789044;movie;King of the Ring;2023;\N;Action,Comedy;\N;\N;original;\N;1;4;1;0;3;56,85714286;66,5;;61,1
 tt13299862;movie;Pendulum;2023;\N;Thriller;\N;\N;original;\N;1;4;0;0;0;57,20582632;;;
 tt24156602;movie;A Common Sequence;2023;80;Documentary;\N;\N;original;\N;1;0;2;0;0;;57,91666667;;
@@ -1409,7 +1410,7 @@ tt16156592;movie;Asedio;2023;\N;Action,Adventure,Crime;\N;\N;original;\N;1;3;1;1
 tt15486810;movie;Teen Wolf: The Movie;2023;140;Action,Drama,Fantasy;\N;\N;original;\N;1;4;1;3;2;55,89393939;57,875;30;44,30754511
 tt10869778;movie;Maidaan;2023;\N;Biography,Drama,History;\N;\N;original;\N;1;4;1;3;2;56,02157439;60,5;63,65714286;56,31521739
 tt6005420;movie;Night in the Garden of Eve;2023;\N;Drama,Romance,Thriller;\N;\N;original;\N;1;3;0;0;1;58,22222222;;;43
-tt16606592;movie;Le rÃ¨gne animal;2023;\N;Adventure,Sci-Fi;\N;\N;original;\N;1;4;1;0;3;63,2854251;58,33333333;;57,21008403
+tt16606592;movie;Le r��gne animal;2023;\N;Adventure,Sci-Fi;\N;\N;original;\N;1;4;1;0;3;63,2854251;58,33333333;;57,21008403
 tt14833464;movie;Players;2023;\N;Comedy,Romance;\N;\N;original;\N;1;4;1;0;3;56,91666667;58;;57,57209064
 tt26763353;movie;The Trace of Your Lips;2023;75;Drama;\N;\N;original;\N;1;1;1;1;3;55,85714286;56,1;52;55,39285714
 tt12675808;movie;22-The Unforgotten Soldier;2023;\N;Drama,War;\N;\N;original;\N;1;4;0;0;3;20,4;;;51,9375
@@ -1430,7 +1431,7 @@ tt22086334;movie;Dream Girl 2;2023;122;Comedy,Drama,Romance;\N;\N;original;\N;1;
 tt10351180;movie;Bad Boy;2023;\N;Comedy,Drama,Romance;\N;\N;original;\N;1;2;1;1;2;55,53555556;67,11764706;70,1;45,3563586
 tt26247032;movie;Walt's Disenchanted Kingdom;2023;\N;Documentary;\N;\N;original;\N;1;1;1;0;3;;70;;66,95
 tt25377462;movie;A Guilty Conscience;2023;135;Comedy,Crime,Mystery;\N;\N;original;\N;1;4;1;2;3;47,30681818;61,30769231;;60,97112135
-tt21994054;movie;Nas Ondas Da FÃ©;2023;110;Comedy;\N;\N;original;\N;1;8;1;0;0;56,79293478;50,2;;
+tt21994054;movie;Nas Ondas Da FǸ;2023;110;Comedy;\N;\N;original;\N;1;8;1;0;0;56,79293478;50,2;;
 tt19845038;movie;Three Ways;2023;92;Comedy;\N;\N;original;\N;1;4;1;0;4;55,15;88;;35,2
 tt23870662;movie;Saath Sobat;2023;\N;Drama;\N;\N;original;\N;1;4;0;0;0;63,76213857;;;
 tt7631290;movie;West Coast Gothic;2023;111;\N;\N;\N;original;\N;1;2;0;0;0;52,4;;;
@@ -1488,10 +1489,10 @@ tt21908428;movie;Oh My Darling;2023;144;Romance;\N;\N;original;\N;1;4;1;1;4;49,4
 tt13086130;movie;Soulmate;2023;124;Drama,Romance;\N;\N;original;\N;1;3;0;1;1;54,91666667;;59,33333333;59
 tt19704542;movie;The QB Bad Boy and Me;2023;\N;Romance;\N;\N;original;\N;1;1;0;0;4;;;;16
 tt25386876;movie;Panibugho;2023;110;Drama;\N;\N;original;\N;1;5;1;1;1;23,5;63;82;61,04545455
-tt13525334;movie;Folie Ã  Famille;2023;91;Comedy,Drama;\N;\N;original;\N;1;8;1;0;1;18,41666667;64;;
+tt13525334;movie;Folie �� Famille;2023;91;Comedy,Drama;\N;\N;original;\N;1;8;1;0;1;18,41666667;64;;
 tt17500254;movie;The Reaper Man;2023;\N;Horror;\N;\N;original;\N;1;4;1;0;2;63;65,5;;
 tt14659498;movie;Survival Mode;2023;\N;Thriller;\N;\N;original;\N;1;9;1;0;0;;;;
-tt26693494;movie;YA Â«lyubilaÂ» muzha. Film;2023;100;Comedy,Crime;\N;\N;original;\N;1;4;1;0;4;52,84832041;;;47,58196721
+tt26693494;movie;YA ��lyubila�� muzha. Film;2023;100;Comedy,Crime;\N;\N;original;\N;1;4;1;0;4;52,84832041;;;47,58196721
 tt24786094;movie;Cade: The Tortured Crossing;2023;96;\N;\N;\N;original;\N;1;6;0;0;0;19,71153846;;;
 tt7741736;movie;The Tuba Thieves;2023;92;Documentary,Drama;\N;\N;original;\N;1;4;1;0;5;33,33333333;;;45,69230769
 tt14927264;movie;Wayward Sons;2023;\N;Drama,Horror;\N;\N;original;\N;1;2;1;0;0;;;;
@@ -1598,7 +1599,7 @@ tt17493724;movie;Meter i sekundet;2023;107;Comedy;\N;\N;original;\N;1;4;1;3;2;59
 tt2599878;movie;Shooter;2023;143;Action,Crime,Drama;\N;\N;original;\N;1;4;1;0;5;55,12902503;67;;53,56595365
 tt15789492;movie;Infiesto;2023;96;Crime,Drama,Thriller;\N;\N;original;\N;1;4;1;0;4;54,05416667;57,7;;59,77331691
 tt14411774;movie;Agent;2023;\N;Action,Thriller;\N;\N;original;\N;1;3;1;1;4;61,59342843;65,125;58,66666667;57,18512397
-tt22185848;movie;Â¡Que viva MÃ©xico!;2023;191;Comedy;\N;\N;original;\N;1;4;1;1;4;64,23587503;71,14285714;70,83333333;65,60617761
+tt22185848;movie;��Que viva MǸxico!;2023;191;Comedy;\N;\N;original;\N;1;4;1;1;4;64,23587503;71,14285714;70,83333333;65,60617761
 tt11395060;movie;I Got a Monster;2023;90;Documentary;\N;\N;original;\N;1;0;1;0;0;;67,33333333;;
 tt24509990;movie;The Hatchet Wielding Hitchhiker;2023;85;Crime,Documentary;\N;\N;original;\N;1;0;1;0;9;;;;63,57163561
 tt26695026;movie;Good Morni MIT;2023;105;Documentary;\N;\N;original;\N;1;1;1;0;7;72,33333333;82;;58,63333333
@@ -1729,7 +1730,7 @@ tt26351494;movie;Count;2023;110;Drama,Sport;\N;\N;original;\N;1;7;1;0;0;57,176;5
 tt26470250;movie;Where Is the Lie?;2023;89;Drama;\N;\N;original;\N;1;4;1;1;3;64,28571429;64,5;65,22222222;60,95151515
 tt13834642;movie;Moonrocks;2023;104;Action,Adventure,Comedy;\N;\N;original;\N;1;3;1;0;3;18,45;40;;27,46666667
 tt15890944;movie;Informal Crooks;2023;\N;Crime;\N;\N;original;\N;1;2;1;0;2;56,16666667;47;;82
-tt26774263;movie;Daniel BrÃ¼hl - Der Reiz des BÃ¶sen;2023;\N;Documentary;\N;\N;original;\N;1;0;1;0;1;;70;;72
+tt26774263;movie;Daniel BrǬhl - Der Reiz des B��sen;2023;\N;Documentary;\N;\N;original;\N;1;0;1;0;1;;70;;72
 tt12794380;movie;Untouchable;2024;\N;Romance,Thriller;\N;\N;original;\N;1;0;1;0;1;;;;
 tt15120452;movie;Love Is Not Enduring;2023;\N;Drama;\N;\N;original;\N;1;1;0;0;0;;;;
 tt16356978;movie;Baby Maker;2023;109;Romance;\N;\N;original;\N;1;0;1;1;2;;;14;56,28571429
@@ -1781,14 +1782,14 @@ tt21871988;movie;The Bogman;2023;\N;Horror;\N;\N;original;\N;1;0;0;0;1;;;;27
 tt11384372;movie;Jodi;2023;122;Comedy,Drama,Romance;\N;\N;original;\N;1;4;1;0;5;59,16666667;73,81818182;;69,1730226
 tt25394054;movie;The Honeymoon;2023;110;Adventure,Comedy;\N;\N;original;\N;1;3;1;0;1;28,25;65;;61
 tt14734838;movie;Red Rain;2023;\N;Crime,Drama,Thriller;\N;\N;original;\N;1;0;1;0;0;;76;;
-tt24742006;movie;KhaÃ¯ma;2023;57;Documentary;\N;\N;original;\N;1;0;1;0;0;;;;
+tt24742006;movie;Kha��ma;2023;57;Documentary;\N;\N;original;\N;1;0;1;0;0;;;;
 tt10080198;movie;A Lion's Game;2023;88;Crime;\N;\N;original;\N;1;3;0;0;2;64,66666667;;;41,66666667
 tt2124780;movie;In the Land of Mines;2023;\N;Adventure,Documentary,History;\N;\N;original;\N;1;0;1;1;0;;59,5;59,5;
 tt12476674;movie;Dark Entities;2023;119;Horror,Mystery,Thriller;\N;\N;original;\N;1;1;0;0;1;80;;;80
 tt6675690;movie;My Name Was Christian;2023;\N;Documentary;\N;\N;original;\N;1;0;1;0;1;;61,5;;
 tt14242630;movie;Move Me No Mountain;2023;84;Drama;\N;\N;original;\N;1;4;1;0;3;20,8;;;
 tt26698828;movie;PRAVDSERG: The World Through My Eyes;2023;70;Biography,Documentary;\N;\N;original;\N;1;0;0;0;2;;;;58,125
-tt8571844;movie;Dedemin GÃ¶zyaslari;2023;95;Drama;\N;\N;original;\N;1;0;1;0;1;;21,5;;54,39393939
+tt8571844;movie;Dedemin G��zyaslari;2023;95;Drama;\N;\N;original;\N;1;0;1;0;1;;21,5;;54,39393939
 tt15022440;movie;80 Proof;2023;\N;Crime;\N;\N;original;\N;1;0;0;0;1;;;;71
 tt13142576;movie;Almost Pretty;2023;115;Drama;\N;\N;original;\N;1;1;0;0;0;45;;;
 tt9178432;movie;One More Day;2023;\N;Drama;\N;\N;original;\N;1;0;1;0;0;;52,5;;
@@ -1906,7 +1907,7 @@ tt23848044;movie;Le Shuru Hoge Maya Ke Kahani;2023;\N;Drama;\N;\N;original;\N;1;
 tt19856688;movie;Mad Fate;2023;108;Mystery;\N;\N;original;\N;1;5;1;1;2;54,68823529;58,42857143;66,66666667;64,35812133
 tt2538718;movie;Nekomimi;2023;81;\N;\N;\N;original;\N;1;0;1;0;0;;62;;
 tt15169036;movie;Blood Harvest;2023;80;Horror;\N;\N;original;\N;1;4;1;2;3;43,81393239;47,75;49,7;43,22893773
-tt26141936;movie;PÃ¥ Hvitfeldtska bodde vi;2023;74;Documentary;\N;\N;original;\N;1;0;1;1;2;;70,5;70,66666667;55,33333333
+tt26141936;movie;PǾ Hvitfeldtska bodde vi;2023;74;Documentary;\N;\N;original;\N;1;0;1;1;2;;70,5;70,66666667;55,33333333
 tt14036206;movie;Afterglows;2023;\N;\N;\N;\N;original;\N;1;4;0;0;0;60,65;;;
 tt13069584;movie;Apocalypse Love Story;2023;\N;Drama;\N;\N;original;\N;1;2;0;0;1;47,25;;;34
 tt26934714;movie;Our Past Words Still Stand;2023;53;Documentary;\N;\N;original;\N;1;0;0;1;3;;;67,2;62,60152505
@@ -1917,7 +1918,7 @@ tt19623240;movie;Winnie the Pooh: Blood and Honey;2023;84;Horror;\N;\N;original;
 tt22075752;movie;A Rose for Her Grave: The Randy Roth Story;2023;\N;Drama,Thriller;\N;\N;original;\N;1;4;1;3;2;49,84085714;;40,25694444;62,77142857
 tt21426456;movie;Molli and Max in the Future;2023;93;Comedy,Romance,Sci-Fi;\N;\N;original;\N;1;4;0;0;4;56,66666667;;;28,5
 tt24070578;movie;Himitsu No Natchan;2023;97;Comedy;\N;\N;original;\N;1;1;0;0;0;64,82608696;;;
-tt26242664;movie;The Arod Quartet - MÃ©nage Ã  4;2023;65;Documentary,Music;\N;\N;original;\N;1;0;1;0;1;;79;;63
+tt26242664;movie;The Arod Quartet - MǸnage �� 4;2023;65;Documentary,Music;\N;\N;original;\N;1;0;1;0;1;;79;;63
 tt14904970;movie;La Puerta Verde;2023;90;Drama;\N;\N;original;\N;1;2;0;0;1;62,84496528;;;71,75
 tt4519000;movie;Jessica Frost;2023;\N;Action,Fantasy,Sci-Fi;\N;\N;original;\N;1;0;0;0;1;;;;58
 tt18351790;movie;Like Sheep Among Wolves;2023;100;Crime,Drama,Thriller;\N;\N;original;\N;1;4;1;0;4;60,01779332;;;62,29874214
@@ -1962,7 +1963,7 @@ tt26457210;movie;The Accident;2023;\N;Horror;\N;\N;original;\N;1;5;0;0;2;;;;
 tt10471692;movie;Scavenger;2023;\N;Action,Adventure,Sci-Fi;\N;\N;original;\N;1;3;1;0;2;47,5546875;56,83333333;;58,5
 tt15043302;movie;Love in Isolation;2023;\N;Comedy,Romance;\N;\N;original;\N;1;1;1;0;0;51;76;;
 tt15567964;movie;C.S.I Sanatan;2023;\N;Crime,Thriller;\N;\N;original;\N;1;5;0;0;1;53,76;;;43
-tt24517988;movie;Tamiri MÃ¼mkÃ¼n;2023;113;Music;\N;\N;original;\N;1;0;1;0;9;;;;40,28571429
+tt24517988;movie;Tamiri MǬmkǬn;2023;113;Music;\N;\N;original;\N;1;0;1;0;9;;;;40,28571429
 tt16290722;movie;Playland;2023;72;Drama,Fantasy;\N;\N;original;\N;1;4;1;0;5;25,07142857;;;30,42857143
 tt19363554;movie;Sound of Silence;2023;93;Horror;\N;\N;original;\N;1;4;4;0;2;27;56;;
 tt26660996;movie;Under the Sky of Damascus;2023;88;Documentary;\N;\N;original;\N;1;0;3;0;6;;44,7;;61,45232467
@@ -1970,10 +1971,10 @@ tt18265146;movie;Victoria : Ek Rahasya;2023;109;Horror,Thriller;\N;\N;original;\
 tt16589584;movie;Atrapadas en Familia;2023;\N;Comedy;\N;\N;original;\N;1;4;1;3;2;18,9;;45,41666667;49,88173077
 tt25376122;movie;Mor Yaar Superstar;2023;148;Comedy,Drama,Musical;\N;\N;original;\N;1;1;0;0;1;91;;;
 tt18082808;movie;Firenado;2023;\N;Action;\N;\N;original;\N;1;4;2;1;2;9,846153846;23,82222222;22,5;24,84210526
-tt20202792;movie;MaquÃ­llame Otra Vez;2023;81;Comedy;\N;\N;original;\N;1;4;1;0;5;54,38690476;69,5;;59,40277778
+tt20202792;movie;Maqu��llame Otra Vez;2023;81;Comedy;\N;\N;original;\N;1;4;1;0;5;54,38690476;69,5;;59,40277778
 tt26422313;movie;The Ghost of Scheherazade;2023;65;Documentary;\N;\N;original;\N;1;0;0;0;2;;;;59,6
 tt15422572;movie;Gowli;2023;\N;Action,Thriller;\N;\N;original;\N;1;6;1;0;3;58,8;;;31
-tt21352132;movie;Los MecÃ¡nicos;2023;87;Comedy;\N;\N;original;\N;1;6;1;0;3;39;67,33333333;;34
+tt21352132;movie;Los Mecǭnicos;2023;87;Comedy;\N;\N;original;\N;1;6;1;0;3;39;67,33333333;;34
 tt15545626;movie;Zindagi Shatranj Hai;2023;84;Thriller;\N;\N;original;\N;1;4;1;1;4;37,26785714;69;;14,78571429
 tt15353442;movie;Adalynn;2023;\N;Drama,Horror,Mystery;\N;\N;original;\N;1;3;0;0;1;;;;56
 tt26690825;movie;Balagam;2023;\N;Drama;\N;\N;original;\N;1;1;0;0;4;60,11111111;;;63,07484568
@@ -2020,7 +2021,7 @@ tt26773537;movie;Didi & Friends the Movie;2023;104;Adventure,Animation,Comedy;\N
 tt24255908;movie;Two for rent;2023;\N;Comedy;\N;\N;original;\N;1;1;1;0;0;;47,28571429;;
 tt26505553;movie;Innocent Vengeance;2023;109;Drama,Mystery,Thriller;\N;\N;original;\N;1;4;1;0;5;63,75571895;66,4;;56,4512987
 tt26549024;movie;Art College 1994;2023;118;Animation;\N;\N;original;\N;1;4;1;1;4;61,14285714;;;30,5
-tt26224130;movie;Die Atomkraft - Ende einer Ã„ra?;2023;\N;Documentary;\N;\N;original;\N;1;0;1;0;3;;;;58,90909091
+tt26224130;movie;Die Atomkraft - Ende einer �?ra?;2023;\N;Documentary;\N;\N;original;\N;1;0;1;0;3;;;;58,90909091
 tt6461800;movie;Vallavanukkum Vallavan;2023;167;Drama;\N;\N;original;\N;1;4;1;0;5;58,86180642;;;58,77128427
 tt2356876;movie;The Con-Test;2023;\N;Thriller;\N;\N;original;\N;1;2;0;1;1;48,43611111;;51;68,66666667
 tt10284138;movie;The Red Prince;2023;120;Biography;\N;\N;original;\N;1;0;1;1;0;;54,5;59,66666667;
@@ -2062,9 +2063,9 @@ tt3832470;movie;The Devil's Hammer;2023;\N;Horror;\N;\N;original;\N;1;0;0;1;0;;;
 tt23767810;movie;Doktor Dinozavrov;2025;\N;Animation;\N;\N;original;\N;1;0;1;0;0;;48,5;;
 tt21038146;movie;Plunder;2023;\N;Thriller;\N;\N;original;\N;1;0;2;0;0;;35;;
 tt18556552;movie;The Falling Sun;2023;\N;Drama,Sci-Fi;\N;\N;original;\N;1;0;1;0;0;;77;;
-tt15286408;movie;The Cathach of FionnÃ¡n;2023;120;Adventure,Mystery;\N;\N;original;\N;1;1;0;0;0;;;;
+tt15286408;movie;The Cathach of Fionnǭn;2023;120;Adventure,Mystery;\N;\N;original;\N;1;1;0;0;0;;;;
 tt19783368;movie;Enter the Furnace;2023;\N;Crime,Drama,Thriller;\N;\N;original;\N;1;1;1;0;2;;;;
-tt15299730;movie;GerÃ§ek Cinler 2;2023;\N;Horror;\N;\N;original;\N;1;0;1;0;0;;26;;
+tt15299730;movie;Ger��ek Cinler 2;2023;\N;Horror;\N;\N;original;\N;1;0;1;0;0;;26;;
 tt9204126;movie;Young. Wild. Free.;2023;105;Drama;\N;\N;original;\N;1;4;1;2;3;56,84858323;;53,25;60,13333333
 tt26453917;movie;Black Girl Missing;2023;\N;Crime,Drama;\N;\N;original;\N;1;4;1;0;2;31,16666667;47;;52,5
 tt1200263;movie;The Color Purple;2023;\N;Drama,Musical;\N;\N;original;\N;1;3;1;2;2;60,80683761;58;66,66666667;67,33333333
@@ -2145,7 +2146,7 @@ tt26446481;movie;The Haunting of Julia Fields;2023;71;\N;\N;\N;original;\N;1;4;1
 tt25621672;movie;Die Fantastischen Vier - Helden des Hip-Hop;2023;\N;Biography;\N;\N;original;\N;1;4;1;1;0;;74,66666667;82;
 tt18376122;movie;Pamela: A Love Story;2023;112;Biography,Documentary;\N;\N;original;\N;1;0;1;0;9;;73,66666667;;52,97693313
 tt9218128;movie;Gladiator 2;2024;\N;Action,Adventure,Drama;\N;\N;original;\N;1;2;1;1;6;37,375;68,05263158;64;64,78947368
-tt21331016;movie;Les trois vengeances de MaÃ®tre Poutifard;2023;\N;Comedy;\N;\N;original;\N;1;3;1;0;4;54,75169686;50,64285714;;54,61481481
+tt21331016;movie;Les trois vengeances de Maǩtre Poutifard;2023;\N;Comedy;\N;\N;original;\N;1;3;1;0;4;54,75169686;50,64285714;;54,61481481
 tt12037194;movie;Furiosa;2024;\N;Action,Adventure,Sci-Fi;\N;\N;original;\N;1;4;1;1;3;63,07560903;68,07142857;63,5;67,87830688
 tt26760928;movie;Vogelperspektiven;2023;106;Documentary;\N;\N;original;\N;1;0;1;0;8;;76,66666667;;59,66020408
 tt4130510;movie;Terror Toons 4;2023;97;Horror;\N;\N;original;\N;1;4;3;3;0;48,80392157;40,67956989;34,41558442;
@@ -2153,7 +2154,7 @@ tt15531718;movie;The Plough;2023;95;Drama,Family;\N;\N;original;\N;1;4;1;3;2;58,
 tt1204976;movie;Monopoly;2027;\N;Adventure,Comedy;\N;\N;original;\N;1;1;1;1;3;61,375;56,13333333;69,625;54,75
 tt26548664;movie;Tonight You're Sleeping with Me;2023;92;Drama,Romance;\N;\N;original;\N;1;6;1;2;1;50,11396011;46;;50,46666667
 tt8544350;movie;Love in Country;2023;\N;Drama,War;\N;\N;original;\N;1;4;2;1;3;19;64;;54,208061
-tt21957640;movie;El hotel de los lÃ­os;2023;\N;Comedy;\N;\N;original;\N;1;6;1;1;0;54,33538021;64,5;;
+tt21957640;movie;El hotel de los l��os;2023;\N;Comedy;\N;\N;original;\N;1;6;1;1;0;54,33538021;64,5;;
 tt26756685;movie;Revice Forward: Kamen Rider Live & Evil & Demons;2023;77;Action;\N;\N;original;\N;1;1;1;1;0;;57,78947368;72;
 tt21946058;movie;Hunt;2023;132;Action,Crime,Thriller;\N;\N;original;\N;1;4;1;0;4;60,9949419;57;;60,58460242
 tt23985826;movie;Love Karma;2023;\N;Romance;\N;\N;original;\N;1;3;1;0;1;58,5;53,33333333;;57
@@ -2274,7 +2275,7 @@ tt15825262;movie;American Trash;2023;\N;Drama;\N;\N;original;\N;1;4;0;1;4;48,960
 tt14077516;movie;Shirley;2023;\N;Biography,Drama,History;\N;\N;original;\N;1;4;1;0;4;60,18283917;64,55555556;;66,33333333
 tt5478456;movie;We Are Zombies;2023;\N;Comedy,Horror;\N;\N;original;\N;1;2;3;0;1;63,88888889;67,75;;63,83333333
 tt19713230;movie;A Neighbor's Vendetta;2023;89;Thriller;\N;\N;original;\N;1;4;1;0;5;46,33333333;59,5;;48,68222222
-tt15053106;movie;Le Terme di TerezÃ­n;2023;110;Drama;\N;\N;original;\N;1;3;0;0;3;60,97192982;;;46,92912088
+tt15053106;movie;Le Terme di Terez��n;2023;110;Drama;\N;\N;original;\N;1;3;0;0;3;60,97192982;;;46,92912088
 tt24132808;movie;Invisible Beauty;2023;115;Documentary;\N;\N;original;\N;1;0;2;0;4;;61,37142857;;66,67647059
 tt15485390;movie;Operation Napoleon;2023;112;Thriller;\N;\N;original;\N;1;4;1;2;3;58,34385965;64;54,97333333;52,48051948
 tt16317452;movie;A House in Jerusalem;2023;103;Drama;\N;\N;original;\N;1;4;1;1;4;42,81818182;70;70;66,44521277
@@ -2286,7 +2287,7 @@ tt10757454;movie;Timir;2023;100;Horror,Mystery,Thriller;\N;\N;original;\N;1;2;0;
 tt8649352;movie;Girl;2023;87;Drama,Romance;\N;\N;original;\N;1;4;1;0;5;57,39583333;;;45,45454545
 tt12745710;movie;Publish or Perish;2023;100;Comedy;\N;\N;original;\N;1;4;1;0;5;36,8;61,5;;44,80555556
 tt12157428;movie;The Black Cyclone;2023;\N;Drama;\N;\N;original;\N;1;0;0;1;2;;;36,33333333;58,66666667
-tt22012140;movie;A Ãšltima Festa;2023;\N;Comedy;\N;\N;original;\N;1;4;3;0;3;36,11111111;59,91964286;;57,95833333
+tt22012140;movie;A �?ltima Festa;2023;\N;Comedy;\N;\N;original;\N;1;4;3;0;3;36,11111111;59,91964286;;57,95833333
 tt14328782;movie;Magoado;2023;\N;Drama;\N;\N;original;\N;1;0;1;0;2;;45;;66,16666667
 tt25161220;movie;All the Colours of the World are Between Black and White;2023;93;Drama;\N;\N;original;\N;1;4;1;0;4;46,69090909;59;;70,5
 tt16578852;movie;Thalaikoothal;2023;\N;Drama;\N;\N;original;\N;1;5;1;0;2;60,68406298;65;;72,28571429
@@ -2352,7 +2353,7 @@ tt21245882;movie;Through My Window: Across the Sea;2023;\N;Comedy,Drama,Romance;
 tt21308736;movie;In Your Dreams;2023;90;Comedy,Drama,Romance;\N;\N;original;\N;1;4;1;3;2;38,35;;49,98333333;
 tt26249116;movie;Pulau;2023;111;Horror;\N;\N;original;\N;1;4;0;2;2;57,11111111;;41,66666667;56,44444444
 tt26198528;movie;Die Hart: The Movie;2023;84;Action,Comedy;\N;\N;original;\N;1;4;1;2;3;60,07381661;;63,34545455;64,40336134
-tt11315808;movie;Joker: Folie Ã  Deux;2024;\N;Action,Crime,Drama;\N;\N;original;\N;1;4;1;4;1;66,99379189;67,06666667;58,97435897;63
+tt11315808;movie;Joker: Folie �� Deux;2024;\N;Action,Crime,Drama;\N;\N;original;\N;1;4;1;4;1;66,99379189;67,06666667;58,97435897;63
 tt22694068;movie;When Will It Be Again Like It Never Was Before;2023;116;Comedy,Drama;\N;\N;original;\N;1;4;1;1;4;64,03030303;66;64,66666667;64,18332096
 tt11912042;movie;Golgappe;2023;131;Comedy;\N;\N;original;\N;1;4;1;3;2;58,46477628;59,42857143;56,42314815;37,8
 tt21192216;movie;The Legend & Butterfly;2023;168;Drama,History,Romance;\N;\N;original;\N;1;4;1;1;4;64,32264957;64,6;64,88235294;64,17381174
@@ -2378,15 +2379,15 @@ tt9224104;movie;The Meg 2: The Trench;2023;\N;Action,Adventure,Horror;\N;\N;orig
 tt16360004;movie;Spider-Man: Beyond the Spider-Verse;2024;\N;Action,Adventure,Animation;\N;\N;original;\N;1;1;1;3;3;65,75;75,5;68,46469622;64,86538462
 tt14463514;movie;Love at First Kiss;2023;96;Comedy,Romance;\N;\N;original;\N;1;4;1;2;2;55,32285714;;49,78472222;58,33333333
 tt26345517;movie;Legend of the Roswell Crash;2023;45;Documentary;\N;\N;original;\N;1;6;1;1;0;60,60497835;63,6;50,54098361;
-tt10195462;movie;Por Eso Vengo al RÃ­o;2023;\N;Documentary;\N;\N;original;\N;1;0;0;2;2;;;63,94010417;69,2
+tt10195462;movie;Por Eso Vengo al R��o;2023;\N;Documentary;\N;\N;original;\N;1;0;0;2;2;;;63,94010417;69,2
 tt19712072;movie;Chengiz;2023;150;Action,Crime,Thriller;\N;\N;original;\N;1;4;1;1;4;58,13954944;68;63,64285714;53,40384615
 tt12571788;movie;Coven of Dixon Cliff;2024;\N;Fantasy;\N;\N;original;\N;1;0;0;1;0;;;43,5;
 tt14781036;movie;Inside;2023;105;Drama,Thriller;\N;\N;original;\N;1;4;1;1;4;62,14567651;73;65,625;62,67792208
 tt4495098;movie;Gran Turismo;2023;\N;Action,Adventure,Drama;\N;\N;original;\N;1;4;1;3;0;61,45533769;71;52,46153846;
 tt15366554;movie;The Man from Rome;2023;107;Comedy,Thriller;\N;\N;original;\N;1;4;1;1;4;61,26131222;66,5;60,33333333;65,11419753
-tt10819348;movie;CrÃ©puscule pour un tueur;2023;105;Crime;\N;\N;original;\N;1;3;1;1;4;58,65;76,5;55,8;68,60555556
+tt10819348;movie;CrǸpuscule pour un tueur;2023;105;Crime;\N;\N;original;\N;1;3;1;1;4;58,65;76,5;55,8;68,60555556
 tt19861160;movie;Sailor Moon Cosmos;2023;\N;Action,Adventure,Animation;\N;\N;original;\N;1;7;0;2;0;67,7303523;;71,85714286;
-tt21920392;movie;El Cas Ã€ngelus. La fascinaciÃ³ de DalÃ­;2023;\N;Comedy,Drama,Thriller;\N;\N;original;\N;1;3;0;1;3;59,09090909;;59;61,65625
+tt21920392;movie;El Cas �?ngelus. La fascinaci�� de Dal��;2023;\N;Comedy,Drama,Thriller;\N;\N;original;\N;1;3;0;1;3;59,09090909;;59;61,65625
 tt11822244;movie;Manje Bistre 3;2024;\N;Drama;\N;\N;original;\N;1;6;1;1;2;62,02340234;60,5;65,36363636;61,50694444
 tt9458110;movie;Luka;2023;94;Drama,Sci-Fi;\N;\N;original;\N;1;4;1;1;4;60,25740498;64,66666667;65,85714286;64,16630435
 tt25953128;movie;Critters, Carnivores and Creatures;2023;111;Family;\N;\N;original;\N;1;1;3;3;3;56,5;44,0212766;42,89189189;50,11111111
@@ -2398,9 +2399,9 @@ tt11068094;movie;White Bird: A Wonder Story;2023;122;Biography,Drama,Family;\N;\
 tt10855768;movie;Missing;2023;111;Drama,Thriller;\N;\N;original;\N;1;4;2;2;2;49,728;51,75;67,43333333;59,55555556
 tt9663764;movie;Aquaman and the Lost Kingdom;2023;\N;Action,Adventure,Fantasy;\N;\N;original;\N;1;4;1;3;2;63,09804791;62,35294118;63,52777778;55,11904762
 tt15811964;movie;End of Loyalty;2023;\N;Action;\N;\N;original;\N;1;4;1;0;1;46,06590114;;;51,66666667
-tt10152488;movie;Un coup de maÃ®tre;2023;\N;Comedy;\N;\N;original;\N;1;4;1;3;2;61,14632035;63,57142857;67,435;58,75408432
-tt16220416;movie;Havana Stories [La operaciÃ³n Payret];2023;\N;Comedy;\N;\N;original;\N;1;2;0;1;2;61;;64;67,4
-tt21114104;movie;Ocho apellidos marroquÃ­s;2023;\N;Comedy;\N;\N;original;\N;1;3;1;1;4;58,08152174;56,4;55,83333333;58,40218421
+tt10152488;movie;Un coup de maǩtre;2023;\N;Comedy;\N;\N;original;\N;1;4;1;3;2;61,14632035;63,57142857;67,435;58,75408432
+tt16220416;movie;Havana Stories [La operaci��n Payret];2023;\N;Comedy;\N;\N;original;\N;1;2;0;1;2;61;;64;67,4
+tt21114104;movie;Ocho apellidos marroqu��s;2023;\N;Comedy;\N;\N;original;\N;1;3;1;1;4;58,08152174;56,4;55,83333333;58,40218421
 tt15325396;movie;Ship of Dreams: Titanic Movie Diaries;2023;90;Documentary;\N;\N;original;\N;1;0;0;0;4;;;;50,77777778
 tt21357600;movie;Bombay;2023;135;Action;\N;\N;original;\N;1;3;1;0;2;50,33333333;60;;56,42708333
 tt22298570;movie;Benim Babam Bir Kahraman;2023;\N;Comedy,Drama,Family;\N;\N;original;\N;1;3;1;2;2;62,02777778;45;42,14285714;55,57936508
@@ -2410,7 +2411,7 @@ tt26763229;movie;In His Shadow;2023;89;Crime,Drama,Thriller;\N;\N;original;\N;1;
 tt14868932;movie;Candlewood;2023;\N;Horror,Thriller;\N;\N;original;\N;1;2;1;0;3;59,6;;;58,57142857
 tt20754462;movie;Temps mort;2023;115;Drama;\N;\N;original;\N;1;2;1;0;4;61,62222222;65;;63,59047619
 tt23664710;movie;Kutch Express;2023;134;Drama,Family;\N;\N;original;\N;1;4;1;3;2;58,25;75,66666667;66,56818182;34,5
-tt26249342;movie;Ã‰ger;2023;\N;Crime,Drama;\N;\N;original;\N;1;4;1;0;4;61,61818182;;;67,17460317
+tt26249342;movie;�?ger;2023;\N;Crime,Drama;\N;\N;original;\N;1;4;1;0;4;61,61818182;;;67,17460317
 tt6217200;movie;Undying;2023;\N;Comedy,Horror,Romance;\N;\N;original;\N;1;3;0;0;2;45,96857143;;;47,95
 tt14151608;movie;Spooky College;2023;133;Comedy,Horror,Thriller;\N;\N;original;\N;1;4;1;0;4;26,66666667;;;67,13450292
 tt14781376;movie;#Mute;2023;109;Thriller;\N;\N;original;\N;1;4;1;0;4;58,94047619;;;54,61538462
