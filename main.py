@@ -1,4 +1,10 @@
 import streamlit as st
+import pandas as pd
+
+def cargar_datos():
+    # Carga tus datos desde una fuente (por ejemplo, un archivo CSV)
+    datos = pd.read_csv('datos.csv')
+    return datos
 
 # Crear un título
 st.title("¡Bienvenidos a nuestra aplicación web - Movies Predictor!")
