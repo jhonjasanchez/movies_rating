@@ -5,6 +5,8 @@ import pandas as pd
 def cargar_datos():
   #datos=pd.read_csv('https://github.com/jhonjasanchez/movies_rating/blob/main/DATASET_PELICULAS_SIN_PUNTAJE.csv',sep=";",encoding='latin-1', decimal=',')
   datos=pd.read_csv('DATASET_PELICULAS_SIN_PUNTAJE.csv',sep=";",encoding='latin-1', decimal=',')
+  #columna = data['nombre_columna']
+  #lista_peliculas = columna.tolist()
   return datos
 
 
