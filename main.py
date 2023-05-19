@@ -3,7 +3,7 @@ import pandas as pd
 
 # Carga tus datos desde una fuente (por ejemplo, un archivo CSV)
 def cargar_datos():
-    datos = pd.read_csv('DATASET_PELICULAS_SIN_PUNTAJE.csv')
+    datos = pd.read_csv("DATASET_PELICULAS_SIN_PUNTAJE.csv")
     return datos
 
 # Crear un título
