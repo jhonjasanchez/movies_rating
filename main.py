@@ -29,8 +29,8 @@ input_usuario = st.text_input("Buscar opción")
 opciones_filtradas = [opcion for opcion in peliculas if input_usuario.lower() in opcion.lower()]
 
 # Mostrar las opciones filtradas en el selectbox
-opcion_seleccionada = st.selectbox("Selecciona una opción", opciones_filtradas)
+opcion_seleccionada = st.selectbox("Selecciona una película", opciones_filtradas)
 
-st.write("Opción seleccionada:", opcion_seleccionada)
+st.write("Película seleccionada: ", opcion_seleccionada)
 
 pred = st.button("Predict") # Botón para predecir
