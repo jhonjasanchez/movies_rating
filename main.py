@@ -20,6 +20,6 @@ st.title("¡Bienvenidos a nuestra aplicación web - Movies Predictor!")
 # Crear un campo de texto para el nombre de la película
 nombre_pelicula = st.text_input("Ingrese el nombre de la película:")
 
-selected_items = st.multiselect("Selecciona elementos", peliculas)
+selected_items = st.selectbox("Selecciona elementos", peliculas)
 
 pred = st.button("Predict") # Botón para predecir
