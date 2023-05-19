@@ -3,6 +3,8 @@ import pandas as pd
 
 # Carga tus datos desde una fuente (por ejemplo, un archivo CSV)
 
+def cargar_datos():
+  datos=''
 
 # Crear un título
 st.title("¡Bienvenidos a nuestra aplicación web - Movies Predictor!")
