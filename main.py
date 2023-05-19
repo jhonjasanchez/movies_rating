@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+# Carga tus datos desde una fuente (por ejemplo, un archivo CSV)
 def cargar_datos():
-    # Carga tus datos desde una fuente (por ejemplo, un archivo CSV)
     datos = pd.read_csv('https://github.com/jhonjasanchez/movies_rating/blob/main/DATASET_PELICULAS_SIN_PUNTAJE.csv')
     return datos
 
