@@ -15,7 +15,9 @@ def cargar_datos_peliculas_det():
   datos_peliculas_det=pd.read_csv('DATASET_PELICULAS_FINAL_2023.csv',sep=";",encoding='latin-1', decimal=',')
   return datos_peliculas_det
 
-def consultar_datos_pelicula(tconst):
+def consultar_datos_pelicula(idpelicula):
+  tmp = idpelicula.split('-')
+  tconst = tmp[0]
   pelicula_filtrada = datos_peliculas_det[datos_peliculas_det['TCONST'] == tconst]
   return pelicula_filtrada
 
