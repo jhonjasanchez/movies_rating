@@ -3,8 +3,8 @@ import pandas as pd
 
 def cargar_datos():
     # Carga tus datos desde una fuente (por ejemplo, un archivo CSV)
-    #datos = pd.read_csv('https://github.com/jhonjasanchez/movies_rating/blob/main/DATASET_PELICULAS_SIN_PUNTAJE.csv')
-    #return datos
+    datos = pd.read_csv('https://github.com/jhonjasanchez/movies_rating/blob/main/DATASET_PELICULAS_SIN_PUNTAJE.csv')
+    return datos
 
 # Crear un título
 st.title("¡Bienvenidos a nuestra aplicación web - Movies Predictor!")
