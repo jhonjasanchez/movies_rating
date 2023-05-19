@@ -7,7 +7,7 @@ def cargar_datos():
   datos=pd.read_csv('DATASET_PELICULAS_SIN_PUNTAJE.csv',sep=";",encoding='latin-1', decimal=',')
   columna = datos['TCONST']+' - '+datos['PRIMARYTITLE']
   lista_peliculas = columna.tolist()
-  
+  lista_peliculas.sort()
   return lista_peliculas
 
 
