@@ -4,7 +4,7 @@ import pandas as pd
 # Carga tus datos desde una fuente (por ejemplo, un archivo CSV)
 
 def cargar_datos():
-  datos=pd.read_csv('https://github.com/jhonjasanchez/movies_rating/blob/main/DATASET_PELICULAS_SIN_PUNTAJE.csv')
+  datos=pd.read_csv('https://github.com/jhonjasanchez/movies_rating/blob/main/DATASET_PELICULAS_SIN_PUNTAJE.csv',sep=";",encoding='latin-1', decimal=',')
   return datos
 
 # Carga los datos
