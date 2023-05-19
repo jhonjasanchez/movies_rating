@@ -5,7 +5,7 @@ import pandas as pd
 def cargar_datos():
   #datos=pd.read_csv('https://github.com/jhonjasanchez/movies_rating/blob/main/DATASET_PELICULAS_SIN_PUNTAJE.csv',sep=";",encoding='latin-1', decimal=',')
   datos=pd.read_csv('DATASET_PELICULAS_SIN_PUNTAJE.csv',sep=";",encoding='latin-1', decimal=',')
-  columna = datos['PRIMARYTITLE']
+  columna = datos['TCONST']+' - '+datos['PRIMARYTITLE']
   lista_peliculas = columna.tolist()
   
   return lista_peliculas
