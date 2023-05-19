@@ -9,7 +9,7 @@ def cargar_datos():
   return datos
 
 # Carga los datos
-#datos = cargar_datos()
+datos = cargar_datos()
 
 # Crear un título
 st.title("¡Bienvenidos a nuestra aplicación web - Movies Predictor!")
