@@ -1,16 +1,15 @@
 import streamlit as st
 import pandas as pd
 
-
-# Carga los datos
-datos = cargar_datos()
-
 # Carga tus datos desde una fuente (por ejemplo, un archivo CSV)
 def cargar_datos():
   #datos=pd.read_csv('https://github.com/jhonjasanchez/movies_rating/blob/main/DATASET_PELICULAS_SIN_PUNTAJE.csv',sep=";",encoding='latin-1', decimal=',')
   datos=pd.read_csv('https://github.com/jhonjasanchez/movies_rating/blob/main/DATASET_PELICULAS_SIN_PUNTAJE.csv',sep=";",encoding='latin-1', decimal=',')
   return datos
 
+
+# Carga los datos
+datos = cargar_datos()
 
 # Crear un título
 st.title("¡Bienvenidos a nuestra aplicación web - Movies Predictor!")
