@@ -39,6 +39,7 @@ def cargar_datos_peliculas_det():
   return datos_peliculas_det
 
 def consultar_datos_pelicula(idpelicula):
+  st.write("Información de la película seleccionada : ", idpelicula)
   tmp = idpelicula.split('-')
   tconst = tmp[0]
   #st.write("Película a buscar: ", tconst)
@@ -47,7 +48,6 @@ def consultar_datos_pelicula(idpelicula):
   return pelicula_filtrada
 
 def pintar_datos_pelicula_sel(pelicula_seleccionada):
-  st.write("Información de la película seleccionada : ", pelicula_seleccionada)
   info_pelicula_sel = pelicula_seleccionada[['startyear','runtimeminutes','genres', 'categoria', 'primaryname','total_peliculas','rating_promedio_peliculas']]  
   info_pelicula_sel['rating_promedio_peliculas'] = info_pelicula_sel['rating_promedio_peliculas'].round(1)
   st.write("Información de la película seleccionada : ", info_pelicula_sel)
