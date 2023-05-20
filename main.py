@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import preprocess as pr
 
 def clean_column_names(df):
     df.columns = (df.columns.str.strip().str.rstrip().str.lower().str.replace(" ","_").str.replace(".","")
