@@ -117,6 +117,7 @@ def pintar_datos_pelicula_sel1(pelicula_seleccionada):
     st.write("Actor de la película: ", row['primaryname'])
 
 def predecir_rating(pelicula_seleccionada):
+    st.write("Pelicula a preparar: ", pelicula_seleccionada)
     pelicula_preparada=consultar_pelicula(pelicula_seleccionada)
     st.write("Pelicula preparada: ", pelicula_preparada)
     rating = 80
