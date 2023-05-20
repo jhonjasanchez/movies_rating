@@ -92,7 +92,6 @@ def consultar_pelicula_a_preparar(idpelicula):
   datos=pd.read_csv('DATASET_PELICULAS_SIN_PUNTAJE.csv',sep=";",encoding='latin-1', decimal=',')
   datos = clean_column_names(datos)
   datos.rename(columns={'itconst': 'tconst'}, inplace=True)
-  st.write("Peliculas: ", datos.head())
   pelicula_filtrada = datos[datos['tconst']==tconst.strip()]
   return pelicula_filtrada
 
@@ -121,8 +120,9 @@ def pintar_datos_pelicula_sel1(pelicula_seleccionada):
     st.write("Actor de la película: ", row['primaryname'])
 
 def predecir_rating(pelicula_seleccionada):
-    st.write("Pelicula a preparar: ", pelicula_seleccionada)
-    pelicula_preparada=consultar_pelicula_a_preparar(pelicula_seleccionada)
+    pelicula_a_preparar=consultar_pelicula_a_preparar(pelicula_seleccionada)
+    st.write("Pelicula preparada: ", pelicula_a_preparar)
+    pelicula_preparada=preparar_pelicula(pelicula_a_preparar)
     st.write("Pelicula preparada: ", pelicula_preparada)
     rating = 80
     st.write("El rating de la película será de: ", rating)
