@@ -89,6 +89,7 @@ def cargar_datos_peliculas_det():
 def consultar_pelicula_a_preparar(idpelicula):
   tmp = idpelicula.split('-')
   tconst = tmp[0]
+  st.write("Peliculas: ", peliculas.head())
   pelicula_filtrada = peliculas[peliculas['tconst']==tconst.strip()]
   return pelicula_filtrada
 
