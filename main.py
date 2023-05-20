@@ -10,7 +10,7 @@ def cambiar_tipos(info_pelicula):
   info_pelicula['startyear'] = info_pelicula['startyear'].astype(np.integer)
   info_pelicula['runtimeminutes'] = info_pelicula['runtimeminutes'].astype(str)
   info_pelicula['runtimeminutes'] = info_pelicula.runtimeminutes.replace({'\\N': np.nan})
-  info_pelicula['runtimeminutes'] = info_pelicula['runtimeminutes'].astype(np.float)
+  info_pelicula['runtimeminutes'] = info_pelicula['runtimeminutes'].astype(np.integer)
   return info_pelicula
 
 #Se dejan sólo las columnas que el modelo va a utilizar
