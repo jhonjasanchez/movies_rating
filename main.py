@@ -89,8 +89,11 @@ def cargar_datos_peliculas_det():
 def consultar_pelicula_a_preparar(idpelicula):
   tmp = idpelicula.split('-')
   tconst = tmp[0]
-  st.write("Peliculas: ", peliculas.head())
-  pelicula_filtrada = peliculas[peliculas['tconst']==tconst.strip()]
+  datos=pd.read_csv('DATASET_PELICULAS_SIN_PUNTAJE.csv',sep=";",encoding='latin-1', decimal=',')
+  datos = clean_column_names(datos)
+  datos.rename(columns={'itconst': 'tconst'}, inplace=True)
+  st.write("Peliculas: ", datos.head())
+  pelicula_filtrada = datos[datos['tconst']==tconst.strip()]
   return pelicula_filtrada
 
 def consultar_datos_pelicula(idpelicula):
