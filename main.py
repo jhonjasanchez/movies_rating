@@ -135,16 +135,12 @@ def consultar_pelicula(peli_sel):
     #pelicula_seleccionada = consultar_datos_pelicula(peli_sel)
     #pintar_datos_pelicula_sel(pelicula_seleccionada)
 
-@st.experimental_singleton
-def upload():
-    model = load("base_model_2000s.pkl")
-    return model   
-   
+  
     
 # Carga los datos
 peliculas = cargar_datos()
 peliculas_det = cargar_datos_peliculas_det()
-modelo = upload()
+modelo = joblib.load('base_model_2000s.pkl')
 
 # Crear un título
 st.title("¡Bienvenidos a nuestra aplicación web - Movies Predictor!")
