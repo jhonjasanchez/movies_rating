@@ -43,7 +43,7 @@ def consultar_datos_pelicula(idpelicula):
   tmp = idpelicula.split('-')
   tconst = tmp[0]
   #st.write("Película a buscar: ", tconst)
-  st.write('<a href="https://www.imdb.com/title/'+tconst+'">'+tmp[1]+'</a>', unsafe_allow_html=True)
+  st.write('<a href="https://www.imdb.com/title/'+tconst+'">Ir al sitio web oficial en IMDB: '+tmp[1]+'</a>', unsafe_allow_html=True)
   pelicula_filtrada = peliculas_det[peliculas_det['tconst']==tconst.strip()]
   #st.write("Tamaño de peliculas_det : ", pelicula_filtrada.head())
   return pelicula_filtrada
