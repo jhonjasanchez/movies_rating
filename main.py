@@ -1,3 +1,4 @@
+pip install streamlit==1.8.0
 import streamlit as st
 import pandas as pd
 import numpy as np
