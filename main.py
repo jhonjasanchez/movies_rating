@@ -19,8 +19,8 @@ def consultar_datos_pelicula(idpelicula):
   tmp = idpelicula.split('-')
   st.write("Película a buscar: ", idpelicula)
   #tconst = tmp[0].str.strip()
-  pelicula_filtrada = datos_peliculas_det[datos_peliculas_det.tconst == idpelicula]
-  return pelicula_filtrada
+  #pelicula_filtrada = datos_peliculas_det[datos_peliculas_det.tconst == idpelicula]
+  #return pelicula_filtrada
 
 
 # Carga los datos
@@ -46,7 +46,8 @@ opcion_seleccionada = st.selectbox("Selecciona una película", opciones_filtrada
 
 st.write("Película seleccionada: ", opcion_seleccionada)
 
-pelicula_seleccionada = consultar_datos_pelicula(opcion_seleccionada)
+#pelicula_seleccionada = consultar_datos_pelicula(opcion_seleccionada)
+consultar_datos_pelicula(opcion_seleccionada)
 #for index, row in pelicula_seleccionada.iterrows():
 #    st.write("Nombre:", row['PRIMARYTITLE'])
 
