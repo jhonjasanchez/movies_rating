@@ -1,4 +1,4 @@
-
+from nltk.tokenize import word_tokenize
 
 #Cambiar el tipo de las columnas
 def cambiar_tipos(info_pelicula):
@@ -23,6 +23,17 @@ def quitar_columnas(info_pelicula)
 #Se preparan los géneros de la película
 def preparar_generos(info_pelicula):
   info_pelicula['genres']=info_pelicula['genres'].str.strip().str.replace(',', ' ')
+  info_pelicula['genres']=info_pelicula.genres.replace({ "\\N": "otro"})
+  listado_generos = info_pelicula['genres']
+  lista=list()
+  texto = ' '
+  for val in listado_generos:
+    tokens = val.split()
+    texto += " ".join(tokens)+" "
+
+  palabras = word_tokenize(texto)
+  unique_values = list(set(palabras))
+  
   return info_pelicula
 
 
