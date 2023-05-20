@@ -47,7 +47,7 @@ def consultar_datos_pelicula(idpelicula):
   return pelicula_filtrada
 
 def pintar_datos_pelicula_sel(pelicula_seleccionada):
-  info_pelicula_sel = pelicula_seleccionada[['startyear','runtimeminutes', 'categoria', 'primaryname','total_peliculas','rating_promedio_peliculas']]  
+  info_pelicula_sel = pelicula_seleccionada[['startyear','genres', 'categoria', 'primaryname','total_peliculas','rating_promedio_peliculas']]  
   info_pelicula_sel['rating_promedio_peliculas'] = info_pelicula_sel['rating_promedio_peliculas'].round(1)
   st.write("Información de la película seleccionada : ", info_pelicula_sel)
   
