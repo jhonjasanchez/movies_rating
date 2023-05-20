@@ -16,7 +16,7 @@ def clean_column_text(df):
                      .str.normalize('NFKD').str.encode('ascii', errors='ignore').str.decode('utf-8'))
     return df
 
- def clean_all_text(df):
+def clean_all_text(df):
     df = clean_column_names(df)
     df = clean_column_text(df)
     return df
