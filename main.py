@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
+#import joblib
 
 
 #Cambiar el tipo de las columnas
@@ -146,7 +146,7 @@ st.write("Versión : ", st.__version__)
 
 
 # Load the pickled model using joblib
-model = joblib.load('base_model_2000s.pkl')
+#model = joblib.load('base_model_2000s.pkl')
 
 
 #modelo = ld.load('base_model_2000s.pkl')
