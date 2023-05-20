@@ -64,7 +64,10 @@ def pintar_datos_pelicula_sel1(pelicula_seleccionada):
 def predecir_rating(pelicula_seleccionada):
     rating = 80
     st.write("El rating de la película será de: ", rating)
-    
+
+def consultar_pelicula(pelicula_seleccionada):
+    pelicula_seleccionada = consultar_datos_pelicula(opcion_seleccionada)
+    pintar_datos_pelicula_sel(pelicula_seleccionada)
     
 # Carga los datos
 peliculas = cargar_datos()
@@ -85,7 +88,7 @@ input_usuario = st.text_input("Buscar una película por nombre")
 opciones_filtradas = [opcion for opcion in peliculas if input_usuario.lower() in opcion.lower()]
 
 # Mostrar las opciones filtradas en el selectbox
-opcion_seleccionada = st.selectbox("Selecciona una película", opciones_filtradas)
+opcion_seleccionada = st.selectbox("Selecciona una película", opciones_filtradas, index=0, on_change=consultar_datos_pelicula)
 
 #st.write("Película seleccionada: ", opcion_seleccionada)
 
