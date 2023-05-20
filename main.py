@@ -47,13 +47,17 @@ def consultar_datos_pelicula(idpelicula):
   return pelicula_filtrada
 
 def pintar_datos_pelicula_sel(pelicula_seleccionada):
+  info_pelicula_sel = pelicula_seleccionada[['categoria', 'primaryname','total_peliculas','rating_promedio_peliculas']]  
+  st.write("Información de la película seleccionada : ", info_pelicula_sel)
+  
+
+def pintar_datos_pelicula_sel1(pelicula_seleccionada):
   directores = pelicula_seleccionada[pelicula_seleccionada['categoria']=='director']  
   for index, row in directores.iterrows():
     st.write("Director de la película: ", row['primaryname'])
   actores = pelicula_seleccionada[pelicula_seleccionada['categoria'].isin(['actress', 'actor'])]
   for index, row in actores.iterrows():
     st.write("Actor de la película: ", row['primaryname'])
-
 
 # Carga los datos
 peliculas = cargar_datos()
