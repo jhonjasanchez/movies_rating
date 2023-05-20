@@ -6,6 +6,7 @@ import numpy as np
 def cambiar_tipos(info_pelicula):
   info_pelicula['startyear'] = info_pelicula['startyear'].astype(str)
   info_pelicula['startyear'] = info_pelicula.startyear.replace({'\\N': np.nan})
+  info_pelicula['startyear'] = info_pelicula.startyear.replace({',': ''})
   info_pelicula['startyear'] = info_pelicula['startyear'].astype(np.float)
   info_pelicula['runtimeminutes'] = info_pelicula['runtimeminutes'].astype(str)
   info_pelicula['runtimeminutes'] = info_pelicula.runtimeminutes.replace({'\\N': np.nan})
