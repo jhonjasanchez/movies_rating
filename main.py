@@ -86,7 +86,7 @@ def cargar_datos_peliculas_det():
   datos_peliculas_det.rename(columns={'itconst': 'tconst'}, inplace=True)
   return datos_peliculas_det
 
-def consultar_pelicula(idpelicula):
+def consultar_pelicula_a_preparar(idpelicula):
   tmp = idpelicula.split('-')
   tconst = tmp[0]
   pelicula_filtrada = peliculas[peliculas['tconst']==tconst.strip()]
@@ -118,7 +118,7 @@ def pintar_datos_pelicula_sel1(pelicula_seleccionada):
 
 def predecir_rating(pelicula_seleccionada):
     st.write("Pelicula a preparar: ", pelicula_seleccionada)
-    pelicula_preparada=consultar_pelicula(pelicula_seleccionada)
+    pelicula_preparada=consultar_pelicula_a_preparar(pelicula_seleccionada)
     st.write("Pelicula preparada: ", pelicula_preparada)
     rating = 80
     st.write("El rating de la película será de: ", rating)
