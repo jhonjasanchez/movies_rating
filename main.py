@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-#from joblib import load
+import joblib
 
 #Cambiar el tipo de las columnas
 def cambiar_tipos(info_pelicula):
