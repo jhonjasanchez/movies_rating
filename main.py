@@ -35,6 +35,8 @@ def cargar_datos():
 def cargar_datos_peliculas_det():
   datos_peliculas_det=pd.read_csv('DATASET_PELICULAS_FINAL_2023.csv',sep=";",encoding='latin-1', decimal=',')
   datos_peliculas_det = clean_column_names(datos_peliculas_det)
+  datos_peliculas_det.rename(columns={'itconst': 'tconst'}, inplace=True)
+
   return datos_peliculas_det
 
 
