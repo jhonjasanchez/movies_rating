@@ -141,7 +141,8 @@ def consultar_pelicula(peli_sel):
 # Carga los datos
 peliculas = cargar_datos()
 peliculas_det = cargar_datos_peliculas_det()
-print(st.__version__)
+st.write("Versión : ", st.__version__)
+
 #modelo = ld.load('base_model_2000s.pkl')
 
 # Crear un título
