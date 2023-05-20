@@ -143,9 +143,10 @@ peliculas = cargar_datos()
 peliculas_det = cargar_datos_peliculas_det()
 st.write("Versión : ", st.__version__)
 
-# Load the pickled model
-with open('base_model_2000s.pkl', 'rb') as file:
-    model = pickle.load(file)
+import joblib
+
+# Load the pickled model using joblib
+model = joblib.load('base_model_2000s.pkl')
 
 
 #modelo = ld.load('base_model_2000s.pkl')
