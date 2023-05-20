@@ -19,7 +19,7 @@ def consultar_datos_pelicula(idpelicula):
   tmp = idpelicula.split('-')
   tconst = tmp[0]
   st.write("Película a buscar: ", tconst)
-  pelicula_filtrada = datos_peliculas_det[datos_peliculas_det.tconst == tconst]
+  pelicula_filtrada = peliculas_det[peliculas_det .tconst == tconst]
   #return pelicula_filtrada
 
 
