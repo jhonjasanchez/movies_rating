@@ -1,3 +1,4 @@
+import streamlit as st
 import pandas as pd
 
 def clean_column_names(df):
