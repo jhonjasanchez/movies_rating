@@ -89,9 +89,9 @@ input_usuario = st.text_input("Buscar una película por nombre")
 opciones_filtradas = [opcion for opcion in peliculas if input_usuario.lower() in opcion.lower()]
 
 # Mostrar las opciones filtradas en el selectbox
-opcion_seleccionada = st.selectbox("Selecciona una película", opciones_filtradas, index=0, on_change=consultar_pelicula)
+opcion_seleccionada = st.selectbox("Selecciona una película", opciones_filtradas)
 
-#st.write("Película seleccionada: ", opcion_seleccionada)
+st.write("Película seleccionadaa: ", opcion_seleccionada)
 
 if len(input_usuario)>0:
   pelicula_seleccionada = consultar_datos_pelicula(opcion_seleccionada)
