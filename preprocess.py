@@ -24,35 +24,12 @@ def quitar_columnas(info_pelicula)
 def preparar_generos(info_pelicula):
   info_pelicula['genres']=info_pelicula['genres'].str.strip().str.replace(',', ' ')
   info_pelicula['genres']=info_pelicula.genres.replace({ "\\N": "otro"})
-  unique_values = ['History',
-                     'War',
-                     'Comedy',
-                     'Family',
-                     'News',
-                     'Short',
-                     'Animation',
-                     'Fantasy',
-                     'Crime',
-                     'Action',
-                     'Thriller',
-                     'Music',
-                     'Horror',
-                     'Reality-TV',
-                     'Documentary',
-                     'Sport',
-                     'Biography',
-                     'Adventure',
-                     'Musical',
-                     'Adult',
-                     'Romance',
-                     'Western',
-                     'otro',
-                     'Mystery',
-                     'Drama',
-                     'Sci-Fi',
-                     'Talk-Show',
-                     'Game-Show']
-  
+  unique_values = ['History','War','Comedy','Family','News','Short','Animation','Fantasy',
+                     'Crime','Action','Thriller','Music','Horror','Reality-TV','Documentary',
+                     'Sport','Biography','Adventure','Musical','Adult','Romance','Western',
+                     'otro','Mystery','Drama','Sci-Fi','Talk-Show','Game-Show']
+  for i in unique_values:
+    info_pelicula[i]=np.where(info_pelicula.genres.str.contains(i),1,0)
   return info_pelicula
 
 
