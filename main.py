@@ -36,7 +36,7 @@ st.title("¡Bienvenidos a nuestra aplicación web - Movies Predictor!")
 
 
 # Obtener la entrada del usuario
-input_usuario = st.text_input("Buscar opción")
+input_usuario = st.text_input("Buscar una película por nombre")
 
 # Filtrar las opciones basadas en la entrada del usuario
 opciones_filtradas = [opcion for opcion in peliculas if input_usuario.lower() in opcion.lower()]
@@ -46,7 +46,7 @@ opcion_seleccionada = st.selectbox("Selecciona una película", opciones_filtrada
 
 st.write("Película seleccionada: ", opcion_seleccionada)
 
-#pelicula_seleccionada = consultar_datos_pelicula(opcion_seleccionada)
+pelicula_seleccionada = consultar_datos_pelicula(opcion_seleccionada)
 #for index, row in pelicula_seleccionada.iterrows():
 #    st.write("Nombre:", row['PRIMARYTITLE'])
 
