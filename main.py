@@ -10,10 +10,13 @@ def cargar_datos():
   lista_peliculas.sort()
   return lista_peliculas
 
+peliculas_det = cargar_datos_peliculas_det()
 # Cargar la información detallada de las películas
 def cargar_datos_peliculas_det():
   datos_peliculas_det=pd.read_csv('DATASET_PELICULAS_FINAL_2023.csv',sep=";",encoding='latin-1', decimal=',')
   return datos_peliculas_det
+
+
 
 def consultar_datos_pelicula(idpelicula):
   tmp = idpelicula.split('-')
@@ -25,7 +28,7 @@ def consultar_datos_pelicula(idpelicula):
 
 # Carga los datos
 peliculas = cargar_datos()
-peliculas_det = cargar_datos_peliculas_det()
+
 
 # Crear un título
 st.title("¡Bienvenidos a nuestra aplicación web - Movies Predictor!")
