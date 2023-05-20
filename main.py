@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
+import pickle
 
 #Cambiar el tipo de las columnas
 def cambiar_tipos(info_pelicula):
@@ -142,6 +142,11 @@ def consultar_pelicula(peli_sel):
 peliculas = cargar_datos()
 peliculas_det = cargar_datos_peliculas_det()
 st.write("Versión : ", st.__version__)
+
+# Load the pickled model
+with open('base_model_2000s.pkl', 'rb') as file:
+    model = pickle.load(file)
+
 
 #modelo = ld.load('base_model_2000s.pkl')
 
