@@ -88,7 +88,7 @@ opcion_seleccionada = st.selectbox("Selecciona una película", opciones_filtrada
 
 st.write("Película seleccionada: ", opcion_seleccionada)
 
-if len(input_usario)>0:
+if len(input_usuario)>0:
   pelicula_seleccionada = consultar_datos_pelicula(opcion_seleccionada)
   pintar_datos_pelicula_sel(pelicula_seleccionada)
 
