@@ -1,6 +1,16 @@
 import streamlit as st
 import pandas as pd
-import preprocess as pr
+
+
+#Cambiar el tipo de las columnas
+def cambiar_tipos(info_pelicula):
+  info_pelicula['startyear'] = info_pelicula['startyear'].astype(str)
+  info_pelicula['startyear'] = info_pelicula.startyear.replace({'\\N': np.nan})
+  info_pelicula['startyear'] = info_pelicula['startyear'].astype(np.float)
+  info_pelicula['runtimeminutes'] = info_pelicula['runtimeminutes'].astype(str)
+  info_pelicula['runtimeminutes'] = info_pelicula.runtimeminutes.replace({'\\N': np.nan})
+  info_pelicula['runtimeminutes'] = info_pelicula['runtimeminutes'].astype(np.float)
+  return info_pelicula
 
 def clean_column_names(df):
     df.columns = (df.columns.str.strip().str.rstrip().str.lower().str.replace(" ","_").str.replace(".","")
