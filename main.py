@@ -42,7 +42,7 @@ def consultar_datos_pelicula(idpelicula):
   tmp = idpelicula.split('-')
   tconst = tmp[0]
   st.write("Película a buscar: ", tconst)
-  pelicula_filtrada = peliculas_det[peliculas_det['tconst']==tconst.str.strip()]
+  pelicula_filtrada = peliculas_det[peliculas_det['tconst']==tconst.strip()]
   st.write("Tamaño de peliculas_det : ", pelicula_filtrada.head())
   #pelicula_filtrada = datos_peliculas_det[datos_peliculas_det['TCONST']==tconst]
   #return pelicula_filtrada
