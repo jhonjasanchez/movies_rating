@@ -121,7 +121,7 @@ def pintar_datos_pelicula_sel1(pelicula_seleccionada):
 
 def predecir_rating(pelicula_seleccionada):
     pelicula_a_preparar=consultar_pelicula_a_preparar(pelicula_seleccionada)
-    st.write("Pelicula preparada: ", pelicula_a_preparar)
+    st.write("Pelicula a preparar: ", pelicula_a_preparar)
     pelicula_preparada=preparar_pelicula(pelicula_a_preparar)
     st.write("Pelicula preparada: ", pelicula_preparada)
     rating = 80
