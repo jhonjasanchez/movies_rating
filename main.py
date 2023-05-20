@@ -13,7 +13,7 @@ def cambiar_tipos(info_pelicula):
   return info_pelicula
 
 #Se dejan sólo las columnas que el modelo va a utilizar
-def quitar_columnas(info_pelicula)
+def quitar_columnas(info_pelicula):
   info_pelicula_2 = info_pelicula[['startyear','runtimeminutes', 'genres','total_actores',
          'total_directores', 'total_escritores', 'total_otras_categorias',
          'prom_ponderado_rating_actores',
