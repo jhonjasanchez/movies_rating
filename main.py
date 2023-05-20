@@ -60,6 +60,11 @@ def pintar_datos_pelicula_sel1(pelicula_seleccionada):
   for index, row in actores.iterrows():
     st.write("Actor de la película: ", row['primaryname'])
 
+def predecir_rating(pelicula_seleccionada):
+    rating = 80
+    st.write("El rating de la película será de: ", rating)
+    
+    
 # Carga los datos
 peliculas = cargar_datos()
 peliculas_det = cargar_datos_peliculas_det()
@@ -86,4 +91,6 @@ st.write("Película seleccionada: ", opcion_seleccionada)
 pelicula_seleccionada = consultar_datos_pelicula(opcion_seleccionada)
 pintar_datos_pelicula_sel(pelicula_seleccionada)
 
-pred = st.button("Predict") # Botón para predecir
+pred = st.button("Predecir rating de la película") # Botón para predecir
+if pred:
+    predecir_rating(opcion_seleccionada)
