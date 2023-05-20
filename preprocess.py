@@ -1,5 +1,6 @@
 
 
+#Cambiar el tipo de las columnas
 def cambiar_tipos(info_pelicula):
   info_pelicula['startyear'] = info_pelicula['startyear'].astype(str)
   info_pelicula['startyear'] = info_pelicula.startyear.replace({'\\N': np.nan})
