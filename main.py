@@ -9,7 +9,7 @@ def cambiar_tipos(info_pelicula):
   info_pelicula['startyear'] = info_pelicula.startyear.replace({',': ''})
   info_pelicula['startyear'] = info_pelicula['startyear'].astype(np.integer)
   info_pelicula['runtimeminutes'] = info_pelicula['runtimeminutes'].astype(str)
-  info_pelicula['runtimeminutes'] = info_pelicula.runtimeminutes.replace({'\\N': np.nan})
+  info_pelicula['runtimeminutes'] = info_pelicula.runtimeminutes.replace({'\\N': '0'})
   info_pelicula['runtimeminutes'] = info_pelicula['runtimeminutes'].astype(np.integer)
   return info_pelicula
 
