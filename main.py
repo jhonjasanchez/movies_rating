@@ -126,7 +126,7 @@ def predecir_rating(pelicula_seleccionada):
     st.write("Pelicula a preparar: ", pelicula_a_preparar)
     pelicula_preparada=preparar_pelicula(pelicula_a_preparar)
     st.write("Pelicula preparada: ", pelicula_preparada)
-    rating = 80
+    rating = modelo.predict(pelicula_preparada)
     st.write("El rating de la película será de: ", rating)
 
 def consultar_pelicula(peli_sel):
@@ -143,6 +143,7 @@ def upload():
 # Carga los datos
 peliculas = cargar_datos()
 peliculas_det = cargar_datos_peliculas_det()
+modelo = upload()
 
 # Crear un título
 st.title("¡Bienvenidos a nuestra aplicación web - Movies Predictor!")
