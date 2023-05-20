@@ -67,8 +67,8 @@ def predecir_rating(pelicula_seleccionada):
 
 def consultar_pelicula(peli_sel):
     st.write("Usted va a consultar: ", peli_sel)
-    pelicula_seleccionada = consultar_datos_pelicula(peli_sel)
-    pintar_datos_pelicula_sel(pelicula_seleccionada)
+    #pelicula_seleccionada = consultar_datos_pelicula(peli_sel)
+    #pintar_datos_pelicula_sel(pelicula_seleccionada)
     
 # Carga los datos
 peliculas = cargar_datos()
