@@ -91,11 +91,8 @@ opciones_filtradas = [opcion for opcion in peliculas if input_usuario.lower() in
 # Mostrar las opciones filtradas en el selectbox
 opcion_seleccionada = st.selectbox("Selecciona una película", opciones_filtradas)
 
-st.write("Película seleccionadaa: ", opcion_seleccionada)
-
-if len(input_usuario)>0:
-  pelicula_seleccionada = consultar_datos_pelicula(opcion_seleccionada)
-  pintar_datos_pelicula_sel(pelicula_seleccionada)
+pelicula_seleccionada = consultar_datos_pelicula(opcion_seleccionada)
+pintar_datos_pelicula_sel(pelicula_seleccionada)
 
 pred = st.button("Predecir rating de la película") # Botón para predecir
 if pred:
