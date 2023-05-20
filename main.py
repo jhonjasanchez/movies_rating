@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
+import joblib as ld
 
 #Cambiar el tipo de las columnas
 def cambiar_tipos(info_pelicula):
@@ -140,7 +140,7 @@ def consultar_pelicula(peli_sel):
 # Carga los datos
 peliculas = cargar_datos()
 peliculas_det = cargar_datos_peliculas_det()
-modelo = joblib.load('base_model_2000s.pkl')
+modelo = ld.load('base_model_2000s.pkl')
 
 # Crear un título
 st.title("¡Bienvenidos a nuestra aplicación web - Movies Predictor!")
