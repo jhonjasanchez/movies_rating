@@ -14,7 +14,7 @@ def cambiar_tipos(info_pelicula):
 def quitar_columnas(info_pelicula)
   info_pelicula_2 = info_pelicula[['startyear','runtimeminutes', 'genres','total_actores',
          'total_directores', 'total_escritores', 'total_otras_categorias',
-         'averagerating', 'prom_ponderado_rating_actores',
+         'prom_ponderado_rating_actores',
          'prom_ponderado_rating_directores',
          'prom_ponderado_rating_escritores',
          'prom_ponderado_rating_otras_cat']]
