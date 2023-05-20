@@ -25,8 +25,8 @@ opcion_seleccionada = st.selectbox("Selecciona una película", opciones_filtrada
 
 st.write("Película seleccionada: ", opcion_seleccionada)
 
-#pelicula_seleccionada = consultar_datos_pelicula(opcion_seleccionada)
-consultar_datos_pelicula(opcion_seleccionada)
+#pelicula_seleccionada = rf.consultar_datos_pelicula(opcion_seleccionada)
+rf.consultar_datos_pelicula(opcion_seleccionada)
 #for index, row in pelicula_seleccionada.iterrows():
 #    st.write("Nombre:", row['PRIMARYTITLE'])
 
