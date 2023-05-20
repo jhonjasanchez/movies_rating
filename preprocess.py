@@ -20,6 +20,12 @@ def quitar_columnas(info_pelicula)
          'prom_ponderado_rating_otras_cat']]
   return info_pelicula_2
 
+#Se preparan los géneros de la película
+def preparar_generos(info_pelicula):
+  info_pelicula['genres']=info_pelicula['genres'].str.strip().str.replace(',', ' ')
+  return info_pelicula
+
+
 def preparar_pelicula(info_pelicula):
   info_pelicula = cambiar_tipos(info_pelicula)
   info_pelicula = quitar_columnas(info_pelicula)
