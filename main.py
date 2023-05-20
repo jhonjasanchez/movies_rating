@@ -1,8 +1,7 @@
-pip install joblib
 import streamlit as st
 import pandas as pd
 import numpy as np
-from joblib import load
+#from joblib import load
 
 #Cambiar el tipo de las columnas
 def cambiar_tipos(info_pelicula):
@@ -128,7 +127,8 @@ def predecir_rating(pelicula_seleccionada):
     st.write("Pelicula a preparar: ", pelicula_a_preparar)
     pelicula_preparada=preparar_pelicula(pelicula_a_preparar)
     st.write("Pelicula preparada: ", pelicula_preparada)
-    rating = modelo.predict(pelicula_preparada)
+    #rating = modelo.predict(pelicula_preparada)
+    rating = 90
     st.write("El rating de la película será de: ", rating)
 
 def consultar_pelicula(peli_sel):
@@ -141,7 +141,8 @@ def consultar_pelicula(peli_sel):
 # Carga los datos
 peliculas = cargar_datos()
 peliculas_det = cargar_datos_peliculas_det()
-modelo = ld.load('base_model_2000s.pkl')
+print(st.__version__)
+#modelo = ld.load('base_model_2000s.pkl')
 
 # Crear un título
 st.title("¡Bienvenidos a nuestra aplicación web - Movies Predictor!")
