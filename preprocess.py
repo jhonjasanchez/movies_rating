@@ -1,4 +1,7 @@
+import nltk
 from nltk.tokenize import word_tokenize
+import pandas as pd
+import numpy as np
 
 #Cambiar el tipo de las columnas
 def cambiar_tipos(info_pelicula):
