@@ -41,11 +41,13 @@ def cargar_datos_peliculas_det():
 def consultar_datos_pelicula(idpelicula):
   tmp = idpelicula.split('-')
   tconst = tmp[0]
-  st.write("Película a buscar: ", tconst)
+  #st.write("Película a buscar: ", tconst)
   pelicula_filtrada = peliculas_det[peliculas_det['tconst']==tconst.strip()]
   st.write("Tamaño de peliculas_det : ", pelicula_filtrada.head())
-  #pelicula_filtrada = datos_peliculas_det[datos_peliculas_det['TCONST']==tconst]
-  #return pelicula_filtrada
+  return pelicula_filtrada
+
+def pintar_datos_pelicula_sel(pelicula_seleccionada):
+  st.write("Director de la película: ", '')
 
 # Carga los datos
 peliculas = cargar_datos()
@@ -70,8 +72,7 @@ opcion_seleccionada = st.selectbox("Selecciona una película", opciones_filtrada
 
 st.write("Película seleccionada: ", opcion_seleccionada)
 
-#pelicula_seleccionada = rf.consultar_datos_pelicula(opcion_seleccionada)
-consultar_datos_pelicula(opcion_seleccionada)
+pelicula_seleccionada = consultar_datos_pelicula(opcion_seleccionada)
 #for index, row in pelicula_seleccionada.iterrows():
 #    st.write("Nombre:", row['PRIMARYTITLE'])
 
