@@ -17,7 +17,7 @@ def cargar_datos_peliculas_det():
 
 def consultar_datos_pelicula(idpelicula):
   tmp = idpelicula.split('-')
-  st.write("Película a buscar: ", idpelicula)
+  st.write("Película a buscar: ", tmp)
   #tconst = tmp[0].str.strip()
   #pelicula_filtrada = datos_peliculas_det[datos_peliculas_det.tconst == idpelicula]
   #return pelicula_filtrada
