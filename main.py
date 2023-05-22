@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-#import joblib
+import joblib
 
 
 #Cambiar el tipo de las columnas
@@ -128,9 +128,19 @@ def predecir_rating(pelicula_seleccionada):
     st.write("Pelicula a preparar: ", pelicula_a_preparar)
     pelicula_preparada=preparar_pelicula(pelicula_a_preparar)
     st.write("Pelicula preparada: ", pelicula_preparada)
-    #rating = modelo.predict(pelicula_preparada)
-    rating = 90
-    st.write("El rating de la película será de: ", rating)
+    # Load the pickled model using joblib
+    modelo1 = joblib.load('C:/movies_ml/base_model_2000s.pkl')
+    modelo2 = joblib.load('C:/movies_ml/base_model_80_90.pkl')
+    modelo3 = joblib.load('C:/movies_ml/base_model_60.pkl')
+    
+    rating1 = modelo1.predict(pelicula_preparada)
+    rating2 = modelo2.predict(pelicula_preparada)
+    rating3 = modelo3.predict(pelicula_preparada)
+    #rating = 90
+    st.write("El rating de la película con el modelo 1 será de: ", rating1)
+    st.write("El rating de la película con el modelo 2 será de: ", rating2)
+    st.write("El rating de la película con el modelo 3 será de: ", rating3)
+    
 
 def consultar_pelicula(peli_sel):
     st.write("Usted va a consultar: ", peli_sel)
