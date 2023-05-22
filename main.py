@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 #import xgboost
-from lightgbm import LGBMRegressor
+#from lightgbm import LGBMRegressor
 
 
 #Cambiar el tipo de las columnas
@@ -132,16 +132,16 @@ def predecir_rating(pelicula_seleccionada):
     st.write("Pelicula preparada: ", pelicula_preparada)
     # Load the pickled model using joblib
     modelo1 = joblib.load('base_model_xgboost_2000s.pkl')
-    modelo2 = joblib.load('base_model_lgbm_2000s.pkl')
-    #modelo3 = joblib.load('base_model_xgboost_60.pkl')
+    modelo2 = joblib.load('base_model_xgboost_80_90.pkl')
+    modelo3 = joblib.load('base_model_xgboost_60.pkl')
     
     rating1 = modelo1.predict(pelicula_preparada)
     rating2 = modelo2.predict(pelicula_preparada)
     rating3 = modelo3.predict(pelicula_preparada)
     #rating = 90
-    st.write("El rating de la película con el modelo 1 - Xgboost será de: ", rating1.round(1))
-    st.write("El rating de la película con el modelo 2 - Lightgbm será de: ", rating2.round(1))
-    #st.write("El rating de la película con el modelo 3 será de: ", rating3.round(1))
+    st.write("El rating de la película con el modelo 1 - Xgboost 2000s será de: ", rating1.round(1))
+    st.write("El rating de la película con el modelo 2 - Xgboost 80-90s será de: ", rating2.round(1))
+    st.write("El rating de la película con el modelo 3 - Xgboost 60-70s será de: ", rating3.round(1))
     
 
 def consultar_pelicula(peli_sel):
