@@ -129,9 +129,9 @@ def predecir_rating(pelicula_seleccionada):
     pelicula_preparada=preparar_pelicula(pelicula_a_preparar)
     st.write("Pelicula preparada: ", pelicula_preparada)
     # Load the pickled model using joblib
-    modelo1 = joblib.load('C:/movies_ml/base_model_2000s.pkl')
-    modelo2 = joblib.load('C:/movies_ml/base_model_80_90.pkl')
-    modelo3 = joblib.load('C:/movies_ml/base_model_60.pkl')
+    modelo1 = joblib.load('base_model_2000s.pkl')
+    modelo2 = joblib.load('base_model_80_90.pkl')
+    modelo3 = joblib.load('base_model_60.pkl')
     
     rating1 = modelo1.predict(pelicula_preparada)
     rating2 = modelo2.predict(pelicula_preparada)
