@@ -114,7 +114,7 @@ def consultar_datos_pelicula(idpelicula):
 def pintar_datos_pelicula_sel(pelicula_seleccionada):
   info_pelicula_sel = pelicula_seleccionada[['startyear','runtimeminutes','genres', 'categoria', 'primaryname','total_peliculas','rating_promedio_peliculas']]  
   info_pelicula_sel['rating_promedio_peliculas'] = info_pelicula_sel['rating_promedio_peliculas'].round(1)
-  st.write("Detalles : ", info_pelicula_sel)
+  st.write("Detalles (Información original del dataset): ", info_pelicula_sel)
   
 
 def pintar_datos_pelicula_sel1(pelicula_seleccionada):
@@ -127,9 +127,9 @@ def pintar_datos_pelicula_sel1(pelicula_seleccionada):
 
 def predecir_rating(pelicula_seleccionada):
     pelicula_a_preparar=consultar_pelicula_a_preparar(pelicula_seleccionada)
-    st.write("Pelicula a preparar: ", pelicula_a_preparar)
+    st.write("Pelicula a preparar (Dataset normalizado): ", pelicula_a_preparar)
     pelicula_preparada=preparar_pelicula(pelicula_a_preparar)
-    st.write("Pelicula preparada: ", pelicula_preparada)
+    st.write("Pelicula preparada (Con las transformaciones para el modelo): ", pelicula_preparada)
     # Load the pickled model using joblib
     modelo1 = joblib.load('base_model_xgboost_2000s.pkl')
     modelo2 = joblib.load('base_model_xgboost_80_90.pkl')
