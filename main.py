@@ -114,7 +114,7 @@ def consultar_datos_pelicula(idpelicula):
 def pintar_datos_pelicula_sel(pelicula_seleccionada):
   info_pelicula_sel = pelicula_seleccionada[['startyear','runtimeminutes','genres', 'categoria', 'primaryname','total_peliculas','rating_promedio_peliculas']]  
   info_pelicula_sel['rating_promedio_peliculas'] = info_pelicula_sel['rating_promedio_peliculas'].round(1)
-  st.markdown("**Detalles (Información original del dataset): **", info_pelicula_sel)
+  st.write("**Detalles (Información original del dataset): **", info_pelicula_sel)
   
 
 def pintar_datos_pelicula_sel1(pelicula_seleccionada):
