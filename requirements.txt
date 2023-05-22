@@ -5,3 +5,4 @@ contractions==0.1.68
 nltk==3.7
 inflect==5.4.0
 joblib==1.2.0
+xgboost==1.7.5
