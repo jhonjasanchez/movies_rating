@@ -138,9 +138,9 @@ def predecir_rating(pelicula_seleccionada):
     rating2 = modelo2.predict(pelicula_preparada)
     rating3 = modelo3.predict(pelicula_preparada)
     #rating = 90
-    st.write("El rating de la película con el modelo 1 será de: ", rating1)
-    st.write("El rating de la película con el modelo 2 será de: ", rating2)
-    st.write("El rating de la película con el modelo 3 será de: ", rating3)
+    st.write("El rating de la película con el modelo 1 será de: ", rating1.round(1))
+    st.write("El rating de la película con el modelo 2 será de: ", rating2.round(1))
+    st.write("El rating de la película con el modelo 3 será de: ", rating3.round(1))
     
 
 def consultar_pelicula(peli_sel):
