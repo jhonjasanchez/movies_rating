@@ -125,6 +125,9 @@ def pintar_datos_pelicula_sel1(pelicula_seleccionada):
   for index, row in actores.iterrows():
     st.write("Actor de la película: ", row['primaryname'])
 
+def dejar_un_decimal(numero):
+    return "{:.1f}".format(numero)
+    
 def predecir_rating(pelicula_seleccionada):
     pelicula_a_preparar=consultar_pelicula_a_preparar(pelicula_seleccionada)
     st.write("Pelicula a preparar (Dataset normalizado): ", pelicula_a_preparar)
@@ -136,7 +139,7 @@ def predecir_rating(pelicula_seleccionada):
     modelo3 = joblib.load('base_model_xgboost_60.pkl')
     
     rating1 = modelo1.predict(pelicula_preparada)
-    rating = (rating1/10).round(1)
+    rating = dejar_un_decimal(rating1)
     #rating2 = modelo2.predict(pelicula_preparada)
     #rating3 = modelo3.predict(pelicula_preparada)
 
