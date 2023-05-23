@@ -136,11 +136,11 @@ def predecir_rating(pelicula_seleccionada):
     modelo3 = joblib.load('base_model_xgboost_60.pkl')
     
     rating1 = modelo1.predict(pelicula_preparada)
-    rating1 = (rating1/10).round(1)
+    rating = (rating1/10).round(1)
     #rating2 = modelo2.predict(pelicula_preparada)
     #rating3 = modelo3.predict(pelicula_preparada)
 
-    st.write("El rating de la película con el modelo - Xgboost 2000s será de: ", rating1)
+    st.write("El rating de la película con el modelo - Xgboost 2000s será de: ", rating)
     #st.write("El rating de la película con el modelo 2 - Xgboost 80-90s será de: ", rating2.round(2))
     #st.write("El rating de la película con el modelo 3 - Xgboost 60-70s será de: ", rating3.round(2))
     
