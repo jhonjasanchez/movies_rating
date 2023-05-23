@@ -126,7 +126,7 @@ def pintar_datos_pelicula_sel1(pelicula_seleccionada):
     st.write("Actor de la película: ", row['primaryname'])
 
 def dejar_un_decimal(numero):
-    return "{:.1f}".format(numero)
+  return"{:.1f}".format(numero)
     
 def predecir_rating(pelicula_seleccionada):
     pelicula_a_preparar=consultar_pelicula_a_preparar(pelicula_seleccionada)
